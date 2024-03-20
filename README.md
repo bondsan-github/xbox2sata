@@ -2,16 +2,10 @@ Aim
 ===
 Create a IDE to SATA bridge PCB with pass-through socket for XBox DVD cable. 
 
-Sources
-=======
-- https://www.psdevwiki.com/ps3/88SA8040-TBC1
-- https://www.ioi.com.tw/products/proddetail.aspx?CatID=101&HostID=2010&DeviceID=3002&ProdID=1010114
-- https://en.wikipedia.org/wiki/Parallel_ATA
-- https://www.startech.com/en-gb/hdd/ide2sat2
-
 Completed
 =========
-Unverified schematic of Startech IDE2SATA pcb
+- Unverified schematic of Startech IDE2SATA pcb
+- Startech IDE2SATA layer scans and annotations in GIMP .xcf image format.
 
 To do
 =====
@@ -32,10 +26,12 @@ Measure components;
 
 Requirements
 ============
-- 5V and ground from xbox motherboard
-- xbox IDE connection
-- DVD IDE connection
-- SATA connection
+- 5V or 3V3 and ground from xbox motherboard
+  - will require solder points from all six motherboard revisions
+  - 1.0 , 1.1 , 1.2 , 1.3 , 1.4 , 1.6/b
+- xbox motherboard IDE socket
+- DVD drive IDE socket
+- SATA to HDD/SATA socket
 - Marvell 88SA8052 IC
   - Crystal oscillator
   - 1V2 for Vdd
@@ -46,9 +42,23 @@ Requirements
 
 Desirables
 ==========
-Marvell 88SA8052 datasheet
-
+- Marvell 88SA8052 datasheet
+- Connect pcb directly to xbox ide header on motherboard.
+- Use motherboard 3V3 reducing one power regulator.
+- Use existing IDE cable from pcb to dvd drive.
+  - Cut or roll second connector behind dvd drive.
+- Use power from existing molex connector to HDD/SSD.
+  
 Software used
 =============
 - Proteus 8.15 SP1
-- GIMP 2.99.18 development release 
+- GIMP 2.99.18 development release
+
+Sources
+=======
+- https://www.psdevwiki.com/ps3/88SA8040-TBC1
+- https://consolemods.org/wiki/Xbox:Versions
+- https://www.ioi.com.tw/products/proddetail.aspx?CatID=101&HostID=2010&DeviceID=3002&ProdID=1010114
+- https://en.wikipedia.org/wiki/Parallel_ATA
+- https://www.startech.com/en-gb/hdd/ide2sat2
+
