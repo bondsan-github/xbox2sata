@@ -24,7 +24,7 @@ Measure components;
 - Measure available space inside XBox under DVD drive.
 
 - Can xbox ide connection be directly connected to DVD connection?
-  - Simularaly to how a IDE cable does?
+  - Simular how a IDE cable does?
   - IDE cable does have CSEL tied hi or low depending on device?
 - Can LED circuit be removed? Is it for HDD activity?
 - CSEL cable selection can be fixed as DVD will always be device 0 (slave) and SATA device 1 (master)?
