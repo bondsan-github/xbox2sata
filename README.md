@@ -15,10 +15,6 @@ Unverified schematic of Startech IDE2SATA pcb
 
 To do
 =====
-Marvell 88SA8052 requires;
-- 1V2 for Vdd
-- 3V3 for Vddio and pull-ups
-
 Measure components;
 - L1
 - R5
@@ -26,6 +22,31 @@ Measure components;
 
 - Find suitable 5V and ground points to tap on XBox motherboard.
 - Measure available space inside XBox under DVD drive.
+
+- Can xbox ide connection be directly connected to DVD connection?
+  - Simularaly to how a IDE cable does?
+  - IDE cable does have CSEL tied hi or low depending on device?
+- Can LED circuit be removed? Is it for HDD activity?
+- CSEL cable selection can be fixed as DVD will always be device 0 (slave) and SATA device 1 (master)?
+- What capacitors are required for power input from xbox motherboard?
+
+Requirements
+============
+- 5V and ground from xbox motherboard
+- xbox IDE connection
+- DVD IDE connection
+- SATA connection
+- Marvell 88SA8052 IC
+  - Crystal oscillator
+  - 1V2 for Vdd
+  - 3V3 for Vddio and pull-ups
+    - power conditioning?
+  - CNFG0,1,2 setup
+  - T0,1,2,3,4,5,6,7,8 setup
+
+Desirables
+==========
+Marvell 88SA8052 datasheet
 
 Software used
 =============
