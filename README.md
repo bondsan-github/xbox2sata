@@ -26,19 +26,21 @@ Measure components;
 
 Requirements
 ============
-- 5V or 3V3 and ground from xbox motherboard
-  - will require solder points from all six motherboard revisions
-  - 1.0 , 1.1 , 1.2 , 1.3 , 1.4 , 1.6/b
-- xbox motherboard IDE socket
-- DVD drive IDE socket
-- SATA to HDD/SATA socket
-- Marvell 88SA8052 IC
-  - Crystal oscillator
-  - 1V2 for Vdd
-  - 3V3 for Vddio and pull-ups
-    - power conditioning?
+- Marvell 88SA8052 - NNC2 IC
+  -  PATA/ATAPI to SATA bridge chip W/ATAPI, 3 GBps SATA
+     -  64 pin
+     -  package: PQFN50P900X900X90-65
+  - 1V2 Voltage regulator for Marvel IC Vdd
+  - 3V3 for Marvel Vddio 
+  - 25Mhz crystal oscillator
   - CNFG0,1,2 setup
   - T0,1,2,3,4,5,6,7,8 setup
+  - will require 3V3 and ground solder points from all six motherboard revisions
+  - 1.0 , 1.1 , 1.2 , 1.3 , 1.4 , 1.6/b
+
+- xbox motherboard IDE socket
+- DVD drive IDE header
+- SATA to HDD/SATA socket
 
 Desirables
 ==========
