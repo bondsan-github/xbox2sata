@@ -36,7 +36,7 @@ Requirements
   - CNFG0,1,2 setup
   - T0,1,2,3,4,5,6,7,8 setup
   - will require 3V3 and ground solder points from all six motherboard revisions
-  - 1.0 , 1.1 , 1.2 , 1.3 , 1.4 , 1.6/b
+    - 1.0 , 1.1 , 1.2 , 1.3 , 1.4 , 1.6/b
 
 - xbox motherboard IDE socket
 - DVD drive IDE header
