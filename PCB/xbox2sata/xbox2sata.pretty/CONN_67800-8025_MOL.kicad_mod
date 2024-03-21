@@ -1,0 +1,317 @@
+(footprint "CONN_67800-8025_MOL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SATA data socket")
+	(tags "67800-8025 SATA data socket")
+	(property "Reference" "J"
+		(at -10.5 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d879f990-bf8b-4a99-b1b2-3328d3107ec7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN_67800-8025_MOL"
+		(at -3.5 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "711c3e51-5900-4ee0-8709-8530a7f2e6a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54cb7b5d-e3a8-48a1-84a0-da374b2f5ccd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.co.uk/en/products/detail/molex/0678008025/3044663"
+		(at 25 9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5339be15-d078-43c1-ab0a-b6118e312905")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c78482cd-dc40-404d-8553-fafb565592be")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 5.3975 0)
+		(end 5.7785 0)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "6f06a6ef-3d75-4a4b-b7ee-c0fd2b2c934b")
+	)
+	(fp_line
+		(start -12.3825 -3.851999)
+		(end -12.3825 2.853601)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7230c2a4-ec9e-4107-ac40-f3bc66fc5c87")
+	)
+	(fp_line
+		(start -12.3825 2.853601)
+		(end 4.7625 2.853601)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac5c309d-7b1c-49bb-9a7b-b6fd203d6d7c")
+	)
+	(fp_line
+		(start 4.7625 -3.851999)
+		(end -12.3825 -3.851999)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "801c187b-042d-4594-a250-515b21fe62c2")
+	)
+	(fp_line
+		(start 4.7625 2.853601)
+		(end 4.7625 -3.851999)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8286f35-5de8-469b-881f-f8315b64fbda")
+	)
+	(fp_circle
+		(center 5.3975 0)
+		(end 5.7785 0)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f62051db-3cbe-40c5-9f5b-4b57358b301f")
+	)
+	(fp_line
+		(start -12.5095 -3.978999)
+		(end -12.5095 2.980601)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f761a167-f5b8-42f7-8fc6-36dbbf25a46d")
+	)
+	(fp_line
+		(start -12.5095 2.980601)
+		(end 4.8895 2.980601)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e1d4c25a-b7b9-4d8d-ac08-f1519b1b9c8e")
+	)
+	(fp_line
+		(start 4.8895 -3.978999)
+		(end -12.5095 -3.978999)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ccddb230-7455-49c0-9866-bacb77a9eaa5")
+	)
+	(fp_line
+		(start 4.8895 2.980601)
+		(end 4.8895 -3.978999)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b005bba-6afe-44ab-bd3e-97ed0ff9c476")
+	)
+	(fp_line
+		(start -12.2555 -3.724999)
+		(end -12.2555 2.726601)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "317d01ec-7cdb-471a-af77-2955d6a5e987")
+	)
+	(fp_line
+		(start -12.2555 2.726601)
+		(end 4.6355 2.726601)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e37b0515-1a60-436c-a806-67446bfceecb")
+	)
+	(fp_line
+		(start 4.6355 -3.724999)
+		(end -12.2555 -3.724999)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d9ec4b2-a20d-418d-9d39-98a8fefa47ce")
+	)
+	(fp_line
+		(start 4.6355 2.726601)
+		(end 4.6355 -3.724999)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cab9e5e6-6031-4ce1-9403-3deb5c955786")
+	)
+	(fp_circle
+		(center 0 -1.905)
+		(end 0.381 -1.905)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "7bbd20cb-a48a-40a8-bae6-405645d4b2f7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -7 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9912f656-e4be-4fc1-a59f-d4caf163a2b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.1684 1.1684)
+		(drill 0.7874)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "73e47e8e-86cd-458b-b191-28540875b290")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 -1)
+		(size 1.1684 1.1684)
+		(drill 0.7874)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9f144d3b-8282-46fe-83b6-0095e46d16a0")
+	)
+	(pad "3" thru_hole circle
+		(at -2.54 -1)
+		(size 1.1684 1.1684)
+		(drill 0.7874)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "94128740-372f-4949-9ba4-c7ae9be19e87")
+	)
+	(pad "4" thru_hole circle
+		(at -3.81 0)
+		(size 1.1684 1.1684)
+		(drill 0.7874)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e955762-2106-472b-8cd2-9937021244e4")
+	)
+	(pad "5" thru_hole circle
+		(at -5.08 -1)
+		(size 1.1684 1.1684)
+		(drill 0.7874)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0e7ce43d-4358-49f1-b19f-581b306ae06b")
+	)
+	(pad "6" thru_hole circle
+		(at -6.35 -1)
+		(size 1.1684 1.1684)
+		(drill 0.7874)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c691aa2e-8c99-4640-93c3-2a3779061e33")
+	)
+	(pad "7" thru_hole circle
+		(at -7.62 0)
+		(size 1.1684 1.1684)
+		(drill 0.7874)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e9af317d-753a-4774-b795-8a52075007b0")
+	)
+	(pad "8" thru_hole circle
+		(at -10.29 -0.499999)
+		(size 1.905 1.905)
+		(drill 1.397)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f3ff7694-8151-4b71-a296-9c3e7de7b2b2")
+	)
+	(pad "9" thru_hole circle
+		(at 2.67 -0.499999)
+		(size 1.905 1.905)
+		(drill 1.397)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "efb8f5c3-c9e5-4438-9e01-66d549352dc3")
+	)
+	(model "D:/Gaming hardware/Microsoft XBox/Modifications/HDD/XBox-IDE to-SATA/PCB/Imports/678008025.stp"
+		(offset
+			(xyz -4 0.8 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
