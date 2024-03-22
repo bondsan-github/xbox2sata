@@ -1,0 +1,31 @@
+SATA data port
+==============
+
+https://www.mouser.co.uk/ProductDetail/Molex/67800-8025?qs=3DzawVMofg92QkpdTaH6sA%3D%3D
+
+https://www.digikey.co.uk/en/products/filter/pluggable-connectors/pluggable-connector-assemblies/443?s=N4IgjCBcoGwJxVAYygMwIYBsDOBTANCAPZQDaIALGGABxwDsIhVYctTl1cATBM19wCsIALqEADgBcoIAMqSATgEsAdgHMQAX0I0aiECkgYcBYmRDcY9GkNETpkOYtUbNboA
+
+
+DVD drive IDE header
+====================
+
+https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61203921621?qs=PhR8RmCirEbpHRYxpUyjEw%3D%3D
+
+https://www.digikey.co.uk/en/products/detail/te-connectivity-amp-connectors/1761633-2/1122038
+
+https://www.digikey.co.uk/en/products/filter/rectangular-connectors/headers-male-pins/314?s=N4IgjCBcoBw1oDGUBmBDANgZwKYBoQB7KAbRACYwwA2AVggF0CAHAFyhAGVWAnASwB2AcxABfAgE4ADAhDJI6bPiKlwlAMzlqIJiDYdu-YWIK1qAFlnzFuAsUhlyUqeXUB2HS3aQuvQSNFAoA
+
+
+XBox IDE socket
+===============
+
+https://www.mouser.co.uk/ProductDetail/Molex/90151-2140?qs=WjPO6T6WDwtb8fg%2FDgSCUQ%3D%3D
+
+https://www.mouser.co.uk/c/connectors/headers-wire-housings/?contact%20gender=Socket%20%28Female%29&number%20of%20positions=40%20Position&number%20of%20rows=2%20Row&pitch=2.54%20mm
+
+https://www.digikey.co.uk/en/products/filter/rectangular-connectors/headers-receptacles-female-sockets/315?s=N4IgjCBcoBw1oDGUBmBDANgZwKYBoQB7KAbRACYwwA2AVggF0CAHAFyhAGVWAnASwB2AcxABfArWoAWBCGSR02fEVIUADGvIBmAOwgmINh279hYgmB0BONbPmLcBYpDJWd5avpbtIXXoJFxCktyO1RMRxUXCi9DHxAASQFWHCEcHjFRUSA
+
+Crystal 25 MHz
+==============
+
+https://www.mouser.co.uk/ProductDetail/ABRACON/ABLS-25.000MHZ-B4-F-T?qs=yTU0IcKoRlHGW93axwFkQw%3D%3D

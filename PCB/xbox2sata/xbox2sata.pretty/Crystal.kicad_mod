@@ -1,0 +1,272 @@
+(footprint "Crystal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "ABLS")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at -7.5 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "531c4536-65c9-4276-ac39-05f41c178cd8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Crystal"
+		(at 0 -5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "af460ba2-0a45-4725-bda2-63ccd225c53c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52621075-fddd-40d3-8d8d-ac2640a412ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/3/abls-1664338.pdf"
+		(at 7.5 9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e73372e3-7d16-4106-a23c-3b0aa4c35766")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Crystal 25 Mhz"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "79979926-020b-4778-9aa9-12e12ec9537a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -8 0)
+		(end -8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36daf826-70ee-44cd-a858-9194253d3be4")
+	)
+	(fp_line
+		(start -7.9 0)
+		(end -7.9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f62e9d14-9bb5-4854-87ca-59ce098cf239")
+	)
+	(fp_line
+		(start -5.7 -2.35)
+		(end 5.7 -2.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d786e19-709f-4fd5-872b-36521797eb53")
+	)
+	(fp_line
+		(start -5.7 -1.4)
+		(end -5.7 -2.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ae1e1e2-6abe-4b34-ab2e-3d103998c011")
+	)
+	(fp_line
+		(start -5.7 2.35)
+		(end -5.7 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0d01895-c933-4900-89f1-d8eec5e869d6")
+	)
+	(fp_line
+		(start 5.7 -2.35)
+		(end 5.7 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc21d55b-5ed1-431c-b6e3-de20b101c173")
+	)
+	(fp_line
+		(start 5.7 1.4)
+		(end 5.7 2.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f916a300-b561-497c-afa7-4a4a5ed387ef")
+	)
+	(fp_line
+		(start 5.7 2.35)
+		(end -5.7 2.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f068feb-3b51-4693-9fc6-465260eb6e6f")
+	)
+	(fp_arc
+		(start -8 0)
+		(mid -7.95 -0.05)
+		(end -7.9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "359eee54-18b1-4ef2-9e7c-d89019079d4a")
+	)
+	(fp_arc
+		(start -7.9 0)
+		(mid -7.95 0.05)
+		(end -8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8d03750-6326-4571-8dfb-05cb9336fb9f")
+	)
+	(fp_line
+		(start -8.55 -3.35)
+		(end 8.55 -3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a97bbaa9-5969-410e-8890-79bc70713847")
+	)
+	(fp_line
+		(start -8.55 3.35)
+		(end -8.55 -3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bdf12f58-2938-4cf6-b881-315df70be450")
+	)
+	(fp_line
+		(start 8.55 -3.35)
+		(end 8.55 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4529c67-6730-468c-89d6-0e86254c9f16")
+	)
+	(fp_line
+		(start 8.55 3.35)
+		(end -8.55 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d214a357-86d2-4fc0-b9d9-15d800f97d03")
+	)
+	(fp_line
+		(start -5.7 -2.35)
+		(end 5.7 -2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a64d35f3-8736-4f5d-9b0b-9b9b8177d7c4")
+	)
+	(fp_line
+		(start -5.7 2.35)
+		(end -5.7 -2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa99b5cf-c51d-4f7e-a2f0-64fe3873d254")
+	)
+	(fp_line
+		(start 5.7 -2.35)
+		(end 5.7 2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0385a180-e1ae-4fa1-9c45-877a1fb43197")
+	)
+	(fp_line
+		(start 5.7 2.35)
+		(end -5.7 2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5267bbb-3c32-4232-8eed-3ceecbe46124")
+	)
+	(pad "1" smd rect
+		(at -4.75 0 90)
+		(size 2.1 5.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "750755c9-a84e-4ca0-91cc-6584da7f4967")
+	)
+	(pad "2" smd rect
+		(at 4.75 0 90)
+		(size 2.1 5.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "470abbc0-6016-4a0a-8468-348287fd3321")
+	)
+	(model "D:/Gaming hardware/Microsoft XBox/Modifications/HDD/XBox-IDE to-SATA/PCB/Imports/LIB_ABLS-25.000MHZ-B4-F-T KiCad/ABLS-25.000MHZ-B4-F-T.stp"
+		(offset
+			(xyz 0 0 2.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

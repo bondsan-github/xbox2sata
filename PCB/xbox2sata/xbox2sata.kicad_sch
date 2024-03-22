@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "29cbf96f-e8a1-446a-9b4f-b577bf6e6f05")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
@@ -111,7 +111,7 @@
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
@@ -130,10 +130,11 @@
 						(size 1.27 1.27)
 					)
 					(justify left bottom)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "61203921621:WURTH-ELEKTRONIK_61203921621"
-				(at -2.032 -33.782 0)
+				(at 6.858 -39.624 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -143,7 +144,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/61203921621.pdf"
-				(at 6.604 -43.688 0)
+				(at 15.494 -49.53 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -151,17 +152,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "IDE Socket"
-				(at -20.32 -45.72 0)
+			(property "Description" "IDE male header"
+				(at 0.508 -32.258 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "PARTREV" "002.000"
-				(at -21.844 -40.132 0)
+				(at -12.954 -45.974 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -171,7 +171,7 @@
 				)
 			)
 			(property "STANDARD" "Manufacturer recommendations"
-				(at -10.668 -35.814 0)
+				(at -1.778 -41.656 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -181,7 +181,7 @@
 				)
 			)
 			(property "SNAPEDA_PN" "61203921621"
-				(at -19.05 -42.418 0)
+				(at -10.16 -48.26 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -191,7 +191,7 @@
 				)
 			)
 			(property "MAXIMUM_PACKAGE_HEIGHT" "9.25mm"
-				(at -21.844 -38.1 0)
+				(at -12.954 -43.942 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -201,7 +201,7 @@
 				)
 			)
 			(property "MANUFACTURER" "Wurth Elektronik"
-				(at -18.034 -31.75 0)
+				(at -9.144 -37.592 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1831,7 +1831,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 8.89 6.35 0)
+				(at 6.096 3.81 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1839,15 +1839,16 @@
 				)
 			)
 			(property "Value" "67800-8025"
-				(at -3.048 -22.098 0)
+				(at -14.732 -23.622 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "xbox2sata:CONN_67800-8025_MOL"
-				(at 1.016 -19.558 0)
+				(at -10.668 -21.082 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1857,7 +1858,7 @@
 				)
 			)
 			(property "Datasheet" "67800-8025"
-				(at -4.572 -24.638 0)
+				(at -16.256 -26.162 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1866,13 +1867,12 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "SATA data socket"
+				(at -0.508 7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "67800-8025"
@@ -2313,6 +2313,42 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 7.62 270)
+					(length 5.08)
+					(name "mount_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 -22.86 90)
+					(length 5.08)
+					(name "mount_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2768,6 +2804,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP3.4x3.4mm_ThermalVias"
@@ -2794,7 +2831,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "88SA8052_1_1"
@@ -3907,6 +3943,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -48.26 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at -15.24 22.86 0)
 					(length 2.54)
@@ -3963,319 +4017,1272 @@
 				)
 			)
 		)
+		(symbol "xbox2sata:90151-2140"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 5.08 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "90151-2140"
+				(at 5.08 -51.562 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "xbox2sata:RHDR40W70P254_2X20_5065X498X870P"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/90151-2140.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "IDE female socket"
+				(at 13.462 -54.61 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "8.7"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "538-90151-2140"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/90151-2140?qs=WjPO6T6WDwtb8fg%2FDgSCUQ%3D%3D"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "90151-2140"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "90151-2140_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -50.8)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -12.7 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -15.24 180)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -17.78 180)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -20.32 180)
+					(length 5.08)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -22.86 180)
+					(length 5.08)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 0)
+					(length 5.08)
+					(name "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -25.4 180)
+					(length 5.08)
+					(name "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -27.94 0)
+					(length 5.08)
+					(name "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -27.94 180)
+					(length 5.08)
+					(name "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 0)
+					(length 5.08)
+					(name "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -30.48 180)
+					(length 5.08)
+					(name "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 0)
+					(length 5.08)
+					(name "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -33.02 180)
+					(length 5.08)
+					(name "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -35.56 0)
+					(length 5.08)
+					(name "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -35.56 180)
+					(length 5.08)
+					(name "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 0)
+					(length 5.08)
+					(name "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -38.1 180)
+					(length 5.08)
+					(name "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -40.64 0)
+					(length 5.08)
+					(name "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -40.64 180)
+					(length 5.08)
+					(name "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -43.18 0)
+					(length 5.08)
+					(name "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -43.18 180)
+					(length 5.08)
+					(name "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -45.72 0)
+					(length 5.08)
+					(name "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -45.72 180)
+					(length 5.08)
+					(name "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 0)
+					(length 5.08)
+					(name "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -48.26 180)
+					(length 5.08)
+					(name "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "xbox2sata:ABLS-25.000MHZ-B4-F-T"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 3.556 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ABLS-25.000MHZ-B4-F-T"
+				(at -7.874 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "xbox2sata:Crystal"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://abracon.com/Resonators/abls.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "HC/49US (AT49) SMD LOW PROFILE CRYSTAL"
+				(at 8.636 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "815-ABLS-25.0M-F-T"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ABLS-25.000MHZ-B4-F-T?qs=yTU0IcKoRlHGW93axwFkQw%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ABRACON"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ABLS-25.000MHZ-B4-F-T"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ABLS-25.000MHZ-B4-F-T_1_1"
+				(polyline
+					(pts
+						(xy 3.048 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 2.54) (xy 3.048 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.064 3.556)
+					(end 6.096 -3.556)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(symbol
-		(lib_id "xbox2sata:61203921621")
-		(at 63.5 53.34 0)
+		(lib_id "xbox2sata:90151-2140")
+		(at 173.99 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "092c1f13-a56d-41ca-81e1-1ab6a9f6abf7")
-		(property "Reference" "J1"
-			(at 63.5 22.86 0)
+		(uuid "047bbb1e-2258-4c5e-8034-fca6fee51422")
+		(property "Reference" "J3"
+			(at 185.42 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "61203921621"
-			(at 63.5 25.4 0)
+		(property "Value" "90151-2140"
+			(at 179.07 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" "xbox2sata:WURTH-ELEKTRONIK_61203921621"
-			(at 61.468 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/61203921621.pdf"
-			(at 70.104 97.028 0)
+		(property "Footprint" "xbox2sata:RHDR40W70P254_2X20_5065X498X870P"
+			(at 193.04 130.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "IDE Socket"
-			(at 43.18 99.06 0)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/90151-2140.pdf"
+			(at 193.04 230.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "002.000"
-			(at 41.656 93.472 0)
+		(property "Description" "IDE female socket"
+			(at 185.42 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer recommendations"
-			(at 52.832 89.154 0)
+		(property "Height" "8.7"
+			(at 193.04 430.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "61203921621"
-			(at 44.45 95.758 0)
+		(property "Mouser Part Number" "538-90151-2140"
+			(at 193.04 530.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "9.25mm"
-			(at 41.656 91.44 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/90151-2140?qs=WjPO6T6WDwtb8fg%2FDgSCUQ%3D%3D"
+			(at 193.04 630.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Wurth Elektronik"
-			(at 45.466 85.09 0)
+		(property "Manufacturer_Name" "Molex"
+			(at 193.04 730.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "dbb04877-3bf8-49f4-a2f4-13be63644fbe")
-		)
-		(pin "37"
-			(uuid "578aaf7d-c98f-4a76-bf69-0bbf88f00a55")
-		)
-		(pin "30"
-			(uuid "fe718be6-2e8b-42d5-abbd-3af30187bc58")
-		)
-		(pin "8"
-			(uuid "0decd092-75ac-499b-9f7f-c6450367c1fc")
-		)
-		(pin "32"
-			(uuid "883aec88-87c6-45c9-b9da-28a9ce1981c7")
-		)
-		(pin "2"
-			(uuid "d19cfcbb-5878-40d2-8061-0723dce6a3a8")
-		)
-		(pin "9"
-			(uuid "b2d9227e-5422-432e-a3be-492fe6950adf")
-		)
-		(pin "34"
-			(uuid "2f1dfe59-e855-4208-8327-fc35ed88aa1c")
-		)
-		(pin "11"
-			(uuid "e9a498dd-c0eb-4dba-bc40-5771009799ef")
-		)
-		(pin "17"
-			(uuid "74575486-b6d5-43cd-a302-a0ac67ab68b4")
-		)
-		(pin "22"
-			(uuid "c169e07e-0bc2-46b0-9a16-d3600bc44f1a")
+		(property "Manufacturer_Part_Number" "90151-2140"
+			(at 193.04 830.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "26"
-			(uuid "bbb5fce0-ad97-47ad-8040-1848d0d172cb")
+			(uuid "f3868c01-6ede-49ee-b44a-e9fccc0466b1")
 		)
-		(pin "25"
-			(uuid "a6ef8ee8-7a6c-4556-8a9b-6d7f708ffc16")
-		)
-		(pin "12"
-			(uuid "7b3820b8-5829-46f7-adfd-8ba054afcd8c")
-		)
-		(pin "16"
-			(uuid "d17c43ae-ebc6-4030-8902-2f4b1a98ce03")
-		)
-		(pin "15"
-			(uuid "dfe19e43-69ad-40cc-aa6b-851d9233a0cf")
-		)
-		(pin "14"
-			(uuid "67132929-be6e-4fea-a2e4-dc0b09ebb563")
-		)
-		(pin "27"
-			(uuid "d8c920dd-b647-46c5-8de0-22cabd0118f4")
+		(pin "1"
+			(uuid "74cf8008-bf21-4808-bc7d-e48cc4df9ec2")
 		)
 		(pin "21"
-			(uuid "7fbe795f-9880-4c6d-ba18-dd85c93b644d")
+			(uuid "8ffd13d6-5668-4ba0-9cee-83fc1b4db753")
 		)
-		(pin "33"
-			(uuid "7c33ecbf-db1c-431c-a995-41d82821407b")
-		)
-		(pin "39"
-			(uuid "58a27009-6e8d-43db-b989-581c1307e83f")
-		)
-		(pin "18"
-			(uuid "b11a50cb-254a-433d-8358-1fc7dd753d28")
+		(pin "32"
+			(uuid "d3b5e4af-2daf-4332-af5a-b6bd29bfe02a")
 		)
 		(pin "5"
-			(uuid "4ccdfc25-949e-4ccb-8fb1-0e23680d83c6")
+			(uuid "14fec6c3-ba88-4c25-ac5c-f7f06a06f064")
 		)
-		(pin "19"
-			(uuid "6f52958a-047b-42ad-b64f-1087e6a9e126")
+		(pin "15"
+			(uuid "266fbed9-a65e-48c5-851f-8a0ec33b1a1e")
 		)
-		(pin "4"
-			(uuid "0d950425-3063-42e4-8e9e-7e955bf81f93")
+		(pin "16"
+			(uuid "8a149b15-61d7-4a5e-9872-649a18b54534")
 		)
-		(pin "38"
-			(uuid "f1e747d3-6947-4473-a3a7-ef2056699b54")
+		(pin "12"
+			(uuid "2c8d5c77-ba71-437a-9ddb-d399766c93aa")
 		)
-		(pin "23"
-			(uuid "cae1def9-f865-4c56-95ca-141bf9798234")
-		)
-		(pin "13"
-			(uuid "8d538b2c-4b0a-4095-b732-8a5872ed676d")
-		)
-		(pin "6"
-			(uuid "5a45fa99-2a75-497d-b123-2a644b92d1e4")
-		)
-		(pin "1"
-			(uuid "38a5a626-19bf-42db-b178-cb5195c2fa4e")
-		)
-		(pin "28"
-			(uuid "84f54b98-f961-4c3c-95e6-ffa35ecf950a")
-		)
-		(pin "35"
-			(uuid "406c4b66-3d68-4b5a-8026-a313258cb65d")
+		(pin "9"
+			(uuid "7dda97d9-460b-40f1-b9b9-91fd8ec3bed9")
 		)
 		(pin "10"
-			(uuid "8f6f04b4-2bcd-4ff7-87e3-1a4cd173a286")
-		)
-		(pin "40"
-			(uuid "72b72b2a-15ab-48e6-8406-d9b2970631e3")
-		)
-		(pin "7"
-			(uuid "a289fd99-5795-42a5-b5c6-c0eea40997a2")
-		)
-		(pin "36"
-			(uuid "461e1e0e-402f-4564-84ea-8c4a28886410")
-		)
-		(pin "31"
-			(uuid "24f248b2-f286-4240-85ba-2f07db70ee8a")
-		)
-		(pin "24"
-			(uuid "239edbf3-8f63-4355-a110-5230d8be9762")
-		)
-		(pin "29"
-			(uuid "0cc5c637-9cbb-40e9-a49b-e23c6b1931c0")
-		)
-		(instances
-			(project "xbox2sata"
-				(path "/29cbf96f-e8a1-446a-9b4f-b577bf6e6f05"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "xbox2sata:67800-8025")
-		(at 180.34 69.85 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5089d3b8-ab1e-4afe-8730-62d7f0de6c06")
-		(property "Reference" "J2"
-			(at 194.31 76.1999 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "67800-8025"
-			(at 194.31 78.7399 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "xbox2sata:CONN_67800-8025_MOL"
-			(at 181.356 89.408 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "67800-8025"
-			(at 175.768 94.488 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "9bb96704-3089-4901-bf99-f5945586f3b2")
 		)
 		(pin "6"
-			(uuid "6ecdd75e-ee67-4fd8-aa53-98b0a9cd5cac")
+			(uuid "e230ca59-1c6f-452c-8d0c-e1828b940ed3")
 		)
-		(pin "7"
-			(uuid "a5fda888-c865-4293-b247-c40ca06d2813")
+		(pin "24"
+			(uuid "be2bd527-a91d-4012-aa68-c1f8c6ababd4")
 		)
-		(pin "1"
-			(uuid "feda184a-9b83-4b8c-80b0-8bd6bc1b4d9e")
+		(pin "18"
+			(uuid "97e6edc9-ccc3-4b87-b61f-a62ff0cc342f")
 		)
-		(pin "3"
-			(uuid "2856dbdf-9c4d-4961-a4ab-41e18afdda21")
+		(pin "38"
+			(uuid "08de4bcf-a868-42f1-a936-a6fb4d94bba7")
+		)
+		(pin "23"
+			(uuid "7bac5aa9-6045-461e-9ad5-fa34be8ff716")
+		)
+		(pin "29"
+			(uuid "bfa2702d-1b19-4485-981b-f463926dc75c")
+		)
+		(pin "17"
+			(uuid "e65b3004-489b-4901-8583-05c833732cf9")
+		)
+		(pin "19"
+			(uuid "a16e3c0c-cd8a-47ab-b59f-01ece259c799")
+		)
+		(pin "36"
+			(uuid "25fa3dc4-998e-4982-8aff-08e0e2075ca9")
 		)
 		(pin "2"
-			(uuid "258f1012-c49c-4cbc-a800-171fc4e84cc1")
+			(uuid "27104989-26f8-4d42-887b-865fb315c368")
 		)
-		(pin "5"
-			(uuid "38ac2507-c028-4c56-ac39-8f7f7dd8b818")
+		(pin "37"
+			(uuid "17b62186-baa3-4e71-b64a-9fb35cf4c731")
+		)
+		(pin "25"
+			(uuid "ebd32510-0311-4a45-b5cd-ddb8d977b397")
+		)
+		(pin "13"
+			(uuid "c8af5ab6-fd56-47a7-957c-8406354ef1e5")
+		)
+		(pin "39"
+			(uuid "f83886b8-c7e2-421b-a088-cf8beaebf9ab")
+		)
+		(pin "14"
+			(uuid "229dba3d-36b3-4027-b98b-4ffcf0efce1a")
+		)
+		(pin "40"
+			(uuid "677b2ff6-5dac-4704-a033-e94a3288cf63")
+		)
+		(pin "8"
+			(uuid "010c9d0f-65c3-440c-8fa9-580bb6c74d59")
+		)
+		(pin "34"
+			(uuid "ba18bdb3-7a81-48e0-9ad2-f400edc74eb4")
+		)
+		(pin "27"
+			(uuid "2f347a6a-af79-4771-b85b-5066969b651b")
+		)
+		(pin "3"
+			(uuid "4442645b-9263-44c5-b840-0081df35bb64")
+		)
+		(pin "31"
+			(uuid "6b34247d-0e2b-4671-9507-cefe45c56d33")
+		)
+		(pin "33"
+			(uuid "e31daa92-de79-4776-8491-d89d28008d72")
+		)
+		(pin "11"
+			(uuid "91fadc71-6d30-48fd-be72-63a1f3ccf661")
+		)
+		(pin "28"
+			(uuid "64404a66-5dc2-4edb-94b5-75394b4e9fd0")
+		)
+		(pin "30"
+			(uuid "537a5457-b762-4f14-b69a-36215d0db352")
+		)
+		(pin "35"
+			(uuid "79faf0ed-80a2-45c6-a0bb-d580dd181c73")
 		)
 		(pin "4"
-			(uuid "8c841988-cab1-4edf-8b9d-4ffaa634ddfb")
+			(uuid "6d7dd26e-bc06-4450-8ce8-564687526a6d")
+		)
+		(pin "22"
+			(uuid "c10c6706-71ac-4fc2-9a5b-4e5a0ead2e2f")
+		)
+		(pin "7"
+			(uuid "f36c4eee-58ac-4e2f-8985-6f0c11320200")
+		)
+		(pin "20"
+			(uuid "ba85d2c3-5f5f-43c8-9c84-b57498919502")
 		)
 		(instances
 			(project "xbox2sata"
 				(path "/29cbf96f-e8a1-446a-9b4f-b577bf6e6f05"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4283,16 +5290,16 @@
 	)
 	(symbol
 		(lib_id "xbox2sata:88SA8052")
-		(at 138.43 68.58 0)
+		(at 334.01 64.77 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5e95a980-31ad-45c2-a1e2-5e541f3b1609")
+		(uuid "3cf9c445-c766-4176-8282-35d4a438b99d")
 		(property "Reference" "U1"
-			(at 139.065 24.13 0)
+			(at 334.645 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4300,15 +5307,16 @@
 			)
 		)
 		(property "Value" "88SA8052 "
-			(at 139.065 26.67 0)
+			(at 326.644 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP3.4x3.4mm_ThermalVias"
-			(at 162.56 118.11 0)
+			(at 358.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +5325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 82.804 0)
+			(at 327.66 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4326,205 +5334,207 @@
 			)
 		)
 		(property "Description" "PATA to SATA Bridge"
-			(at 135.636 115.824 0)
+			(at 334.645 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(pin "39"
-			(uuid "4c3d1ea3-a921-43c9-a725-2c7920faf6e1")
-		)
-		(pin "50"
-			(uuid "04099789-f0ed-4996-a8af-f02184d5be0b")
-		)
-		(pin "55"
-			(uuid "8c8edc32-2686-4a26-b769-076c00f7c4f2")
-		)
-		(pin "6"
-			(uuid "fdbd0a37-5f82-422c-aaa0-83bc594cc092")
-		)
-		(pin "64"
-			(uuid "bb11c84d-5299-4f4e-ae61-571f535dab42")
-		)
-		(pin "5"
-			(uuid "6c5e0499-e84d-41a5-9103-b784f438f493")
-		)
-		(pin "36"
-			(uuid "6d8cbcd6-dfbe-49d6-ab1f-8199fb025b87")
+		(pin "60"
+			(uuid "b35e0f3a-499d-4a15-b7c2-49a2b8a23782")
 		)
 		(pin "31"
-			(uuid "481a0135-fdc7-414b-9104-3db64dc28831")
-		)
-		(pin "49"
-			(uuid "10337ffa-158b-42f2-8185-cc1cc6dc896e")
-		)
-		(pin "51"
-			(uuid "36eb66da-c18d-48b9-809d-1b45f54f94d4")
-		)
-		(pin "52"
-			(uuid "e63fcdb1-c968-4cb7-871c-d294e76f603e")
-		)
-		(pin "45"
-			(uuid "9bbb81af-532c-4c76-9240-09c1c5d33d0b")
-		)
-		(pin "20"
-			(uuid "4af42002-ea0c-490b-bddf-58183f49b339")
-		)
-		(pin "1"
-			(uuid "6c50f2c6-ea95-4575-9e38-94f560a002cb")
-		)
-		(pin "25"
-			(uuid "fbda3c06-b97f-4d84-ac0d-43ccc52ddf5e")
-		)
-		(pin "10"
-			(uuid "76d2ef5a-e930-4693-a156-fc148842d20c")
-		)
-		(pin "27"
-			(uuid "4e132bb0-9d3e-428c-ac43-fef48ffb3bce")
-		)
-		(pin "34"
-			(uuid "2881e239-6898-48c6-9e01-0e2dec3dab0d")
-		)
-		(pin "19"
-			(uuid "cf6a4610-f1e2-40c1-b43d-eb91a9159d03")
-		)
-		(pin "35"
-			(uuid "ac936483-0cd0-4778-8a7e-5bcf344d0235")
-		)
-		(pin "14"
-			(uuid "74873ebe-f14c-4d93-9fb4-e4cf2b54bb61")
-		)
-		(pin "26"
-			(uuid "4f87c7ed-70d4-4371-a9c3-951a3a351d32")
-		)
-		(pin "28"
-			(uuid "c53bd380-b0ee-42ef-bf11-7a11f1b6b693")
-		)
-		(pin "4"
-			(uuid "a3641bde-cd0d-4453-830e-be4919f57554")
+			(uuid "c84fc08d-d8f7-42a0-8a14-1d8abed6db73")
 		)
 		(pin "44"
-			(uuid "42581d47-c94a-4eb0-8ced-347297ebde16")
-		)
-		(pin "53"
-			(uuid "09888105-2bfd-4496-ae02-0654a799e799")
-		)
-		(pin "56"
-			(uuid "97adc786-6421-4163-96ae-42036145d1d7")
-		)
-		(pin "40"
-			(uuid "9921beca-5d08-429d-b961-e69bfdb091a4")
-		)
-		(pin "57"
-			(uuid "249cfe2f-167f-4fd9-a31c-4972e7f548c0")
-		)
-		(pin "23"
-			(uuid "c7a3c13d-5b6b-4dae-b17a-7739663b61bd")
-		)
-		(pin "59"
-			(uuid "d4671d61-f7e5-4ac0-a77e-be4f9b0c22f3")
-		)
-		(pin "47"
-			(uuid "aea27e43-765f-4d5e-b0e9-fa8342d378d8")
-		)
-		(pin "61"
-			(uuid "b222a064-d814-4a82-94c9-2b05d402dd67")
-		)
-		(pin "62"
-			(uuid "dd7d291f-c65e-41ff-a1ab-7150d3b52173")
-		)
-		(pin "33"
-			(uuid "4e67c9ab-1639-4ce9-95b3-b6d969c8a20e")
-		)
-		(pin "38"
-			(uuid "d4530f9d-f078-42f1-9aad-021649cf7695")
-		)
-		(pin "22"
-			(uuid "3f0da99f-0586-4248-ace6-7328e27cf0fd")
-		)
-		(pin "15"
-			(uuid "15a6da28-1a86-4b98-96f2-ff236c308f46")
-		)
-		(pin "43"
-			(uuid "81ba1093-9d18-4afd-9292-f3b32b55df2d")
-		)
-		(pin "54"
-			(uuid "9276d988-ba94-4647-a085-64c2dad9a630")
-		)
-		(pin "60"
-			(uuid "c8a0bc0b-9477-43dc-a51c-869ecaf1789e")
+			(uuid "38db366c-f8e2-4709-a5b7-4dd6fe51d5d6")
 		)
 		(pin "11"
-			(uuid "1f63ed7b-f44f-414b-8fee-bb1c542b4cd7")
+			(uuid "d30366c3-6d98-45a0-b328-fd71c73d71e2")
 		)
-		(pin "63"
-			(uuid "7bb72cbf-6c03-4c1d-9c6e-feb2b8ec6cb8")
-		)
-		(pin "7"
-			(uuid "642d0bdd-2c6b-4602-935f-51ea22e42b9c")
-		)
-		(pin "8"
-			(uuid "1e827287-e573-4bad-9b25-d50efc9409d9")
-		)
-		(pin "18"
-			(uuid "2b17bc92-79c0-4ad9-b928-81528367a3cc")
+		(pin "33"
+			(uuid "683449f2-2631-4a9a-8d39-f3248a3875f3")
 		)
 		(pin "12"
-			(uuid "f5f16e04-87aa-4479-b443-0d70ee70fc45")
+			(uuid "6114c7c5-8dfd-4150-ae73-85bdef43396d")
 		)
-		(pin "2"
-			(uuid "8d965727-88fb-4b1a-b570-db4fa61b90bf")
+		(pin "26"
+			(uuid "5b1dd92e-c5aa-4b09-bc01-3eff1df1acff")
 		)
-		(pin "29"
-			(uuid "a05cbe77-ad17-45c9-9cda-f44cae969689")
+		(pin "38"
+			(uuid "1f8cfed1-47ea-4018-b947-221bb7bc86a4")
 		)
-		(pin "58"
-			(uuid "ad29d427-9ac9-4e2d-8b23-32d0c653d94f")
-		)
-		(pin "3"
-			(uuid "c655ef50-5c44-45d1-971d-5def023d5c64")
-		)
-		(pin "37"
-			(uuid "cdb06e8e-9a1f-4169-9117-d4abbcf1b055")
-		)
-		(pin "16"
-			(uuid "e994aad0-c3d1-48df-9992-a89dffa888b7")
-		)
-		(pin "13"
-			(uuid "2f43a000-157e-4c56-8494-78a0881d65fb")
-		)
-		(pin "32"
-			(uuid "7933f97f-b252-427c-b76b-68bd7c3d3b20")
-		)
-		(pin "46"
-			(uuid "b446333b-ee71-4838-a7de-93045efd4ee1")
-		)
-		(pin "30"
-			(uuid "46ca2756-d859-4f3b-9a37-1a9ffce505dc")
+		(pin "40"
+			(uuid "af452abb-0f1c-4c27-a267-a770a6a306cf")
 		)
 		(pin "41"
-			(uuid "0a6d64c1-bd62-45fc-b5cf-e51f30eb2686")
+			(uuid "3346e809-9e02-4fe0-8603-bbc306bb28d4")
 		)
-		(pin "17"
-			(uuid "deed7005-b18a-4cc3-a606-cf8654864f50")
+		(pin "16"
+			(uuid "c17b492f-bceb-4a26-b3e3-efc7f44fb128")
 		)
-		(pin "21"
-			(uuid "6830764a-ca21-440a-9703-bfac9cee60f6")
+		(pin "39"
+			(uuid "0649f9b1-f0cf-459a-8408-5c55c720333c")
 		)
 		(pin "42"
-			(uuid "bcc3b172-a907-4115-bbf8-2ef9ac6e55bb")
+			(uuid "6bff76a4-0214-4f38-8a3a-0df86a81e38c")
 		)
-		(pin "48"
-			(uuid "7f8cd7d6-2fa9-4118-896f-d5039b37c62c")
+		(pin "3"
+			(uuid "25a51562-d3f4-47d6-bab7-71bad802f998")
+		)
+		(pin "52"
+			(uuid "320d6645-2059-4c1f-991c-bda12a8616ad")
+		)
+		(pin "1"
+			(uuid "e704405e-da51-44af-a5c5-3f671f0ff215")
+		)
+		(pin "51"
+			(uuid "8a1a8da3-36ee-4a5d-b57d-724338d71151")
+		)
+		(pin "53"
+			(uuid "d4b282cd-26b4-4f6f-be72-77c2a46db78e")
+		)
+		(pin "21"
+			(uuid "536f3c72-5c68-4a2a-81d5-27e17031fae2")
+		)
+		(pin "55"
+			(uuid "338855b3-ebc4-40c4-8bc6-e58695bfc932")
+		)
+		(pin "35"
+			(uuid "84d2f0f1-4ddd-442b-8a19-d68aa00f5f16")
+		)
+		(pin "47"
+			(uuid "6544425a-2c49-422e-b5e5-224c0e39ec00")
+		)
+		(pin "57"
+			(uuid "9a7dc9e6-a20f-4e45-8fd3-0fcd2e5a5cde")
+		)
+		(pin "20"
+			(uuid "c2741334-86cb-4212-a28d-0ff309093d9b")
+		)
+		(pin "58"
+			(uuid "a0a5deae-b375-49ab-a4d2-3b11ba175c4d")
+		)
+		(pin "6"
+			(uuid "193bf74e-04d4-4150-b862-08d411f11ec9")
+		)
+		(pin "61"
+			(uuid "9565e174-efec-4cbe-8d14-220ec29dba4a")
+		)
+		(pin "63"
+			(uuid "40950598-f79c-41ad-9ecf-232fdc2c6615")
+		)
+		(pin "64"
+			(uuid "cc0ddb0f-c523-4a10-ae70-a89e53b350c3")
+		)
+		(pin "14"
+			(uuid "22ce404a-f8a5-44a1-8434-e474d2f65224")
+		)
+		(pin "15"
+			(uuid "89c18997-7cea-4417-ad90-744c99294af9")
+		)
+		(pin "10"
+			(uuid "32c3bf96-2843-40e6-b8fb-d9eac79ac968")
+		)
+		(pin "43"
+			(uuid "c105c275-e3c4-43b5-b803-372576d4f4de")
+		)
+		(pin "45"
+			(uuid "bdea4a90-ef79-443a-b4dd-b81bdd2af7be")
+		)
+		(pin "30"
+			(uuid "fb89f856-1bcf-4314-af46-cd9305a69d4b")
+		)
+		(pin "2"
+			(uuid "ea740bf4-4bb9-4607-8237-d1c5844bc711")
+		)
+		(pin "17"
+			(uuid "eaab5e64-0cbb-47da-8fe9-eb524c5b7ca8")
+		)
+		(pin "27"
+			(uuid "c40ac220-8383-4983-9c2d-827b38e515d2")
+		)
+		(pin "46"
+			(uuid "40b2ea60-6a82-42fd-a742-f298729b9b22")
+		)
+		(pin "19"
+			(uuid "5f42954e-5300-4490-9079-40df53375b45")
+		)
+		(pin "23"
+			(uuid "d8174eb0-8b27-4df0-89f4-9cba40259d9a")
+		)
+		(pin "28"
+			(uuid "3e90f32e-ff48-4fa3-9728-e293ed88b946")
+		)
+		(pin "49"
+			(uuid "e460054f-2ebd-48ab-80dc-c4d6e2eb247a")
+		)
+		(pin "5"
+			(uuid "006c4dae-af03-4ce6-be6f-5931087b1fc8")
+		)
+		(pin "4"
+			(uuid "ac8b17b3-c3fc-4f6e-87ae-ac8b73cc3630")
+		)
+		(pin "54"
+			(uuid "99495d06-bb19-4c3e-bd60-39e864e0cdee")
+		)
+		(pin "65"
+			(uuid "af699792-c9c9-46cd-a2b0-ed3fad9088ba")
+		)
+		(pin "7"
+			(uuid "95e4b462-80f4-4368-95d0-0cf833099d9e")
+		)
+		(pin "29"
+			(uuid "cba47edd-873e-4bd9-b87d-964ad5c2542e")
+		)
+		(pin "62"
+			(uuid "0e82cd7a-71ee-44fd-9522-5fbc8368e6af")
+		)
+		(pin "22"
+			(uuid "840e2f86-c02b-4e9a-8009-9b4f142a5c2c")
+		)
+		(pin "25"
+			(uuid "fa2d9443-2a4d-42d2-8280-2d5683e9cad3")
+		)
+		(pin "37"
+			(uuid "e18f1384-2090-4933-846f-dc02c77690ff")
 		)
 		(pin "24"
-			(uuid "2d11dff9-db41-48c6-b85f-4c244b5ed04a")
+			(uuid "6a540585-5adf-4031-9b98-b322ab2c8317")
+		)
+		(pin "18"
+			(uuid "a8a9f1f8-1070-4222-847b-f76704eeeee8")
+		)
+		(pin "36"
+			(uuid "ead23bdd-3fb1-4342-866e-8a02c620fa67")
+		)
+		(pin "13"
+			(uuid "cf4f0a41-2ded-4965-89e2-83cb4c09b283")
+		)
+		(pin "59"
+			(uuid "2a617a9c-26e8-4087-9af6-a7ebd4c0f4f4")
+		)
+		(pin "34"
+			(uuid "9db72075-a4c9-4829-b1dd-bbc7cde3bd83")
+		)
+		(pin "50"
+			(uuid "6e9d1224-4a2a-419b-9721-4e38c2950fe0")
+		)
+		(pin "56"
+			(uuid "bc81da09-1f4a-4445-8c58-eb51640afd89")
+		)
+		(pin "32"
+			(uuid "c8c52ec1-efb4-418c-ac91-5c67c00aef64")
+		)
+		(pin "48"
+			(uuid "d2e766de-c5f7-4129-ae40-fee3a13b7eee")
 		)
 		(pin "9"
-			(uuid "9394b056-d5cc-4200-ae03-f6101eb5cb58")
+			(uuid "a1eac9bc-8fa3-48e3-bde2-715e97ddef4d")
+		)
+		(pin "8"
+			(uuid "8f54231f-11a1-48eb-a33e-d88ed49bb00c")
 		)
 		(instances
 			(project "xbox2sata"
@@ -4536,8 +5546,332 @@
 		)
 	)
 	(symbol
+		(lib_id "xbox2sata:67800-8025")
+		(at 290.83 184.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49eca214-5038-436d-98dc-8e47287a19bc")
+		(property "Reference" "J2"
+			(at 304.8 190.4999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "67800-8025"
+			(at 276.098 207.772 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "xbox2sata:CONN_67800-8025_MOL"
+			(at 280.162 205.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "67800-8025"
+			(at 274.574 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SATA data socket"
+			(at 304.8 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "f0bc5f6c-fe43-4318-b438-8ba52d0939da")
+		)
+		(pin "2"
+			(uuid "7c503eb0-fc40-42ce-a8f1-4a51d1883924")
+		)
+		(pin "3"
+			(uuid "0fe35d4b-c348-454e-b64b-dcafcce3d6e6")
+		)
+		(pin "8"
+			(uuid "afd5692d-216d-4e83-9e30-8a8ae3b76904")
+		)
+		(pin "7"
+			(uuid "e0201fe8-5feb-4600-a3cf-4de6833f4a4a")
+		)
+		(pin "4"
+			(uuid "636c611b-cf66-41db-b629-93a7a08c74e3")
+		)
+		(pin "5"
+			(uuid "6a156ea3-4bd2-4361-bec9-a3c247155b8e")
+		)
+		(pin "6"
+			(uuid "53c5da74-9e58-4085-988f-cc3db44376d1")
+		)
+		(pin "9"
+			(uuid "6562cef0-9e35-4ff4-bbed-80e5a4ca1fc5")
+		)
+		(instances
+			(project "xbox2sata"
+				(path "/29cbf96f-e8a1-446a-9b4f-b577bf6e6f05"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "xbox2sata:61203921621")
+		(at 119.38 58.42 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ea6f8ea-9d52-429b-9e25-c91b56e61752")
+		(property "Reference" "J1"
+			(at 119.38 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "61203921621"
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "61203921621:WURTH-ELEKTRONIK_61203921621"
+			(at 126.238 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/61203921621.pdf"
+			(at 134.874 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IDE male header"
+			(at 119.38 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "002.000"
+			(at 106.426 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 117.602 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "61203921621"
+			(at 109.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "9.25mm"
+			(at 106.426 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Wurth Elektronik"
+			(at 110.236 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "24"
+			(uuid "c59c1f9e-4315-44d5-8ea2-cd4b7a499890")
+		)
+		(pin "3"
+			(uuid "0dcba92d-04e2-4a09-90a4-11a3377502bd")
+		)
+		(pin "36"
+			(uuid "f588b5e9-2437-423a-855e-439af50cc1a6")
+		)
+		(pin "13"
+			(uuid "9cfecf5c-992c-4dd9-b6cb-8697700e4b72")
+		)
+		(pin "15"
+			(uuid "67aef1fa-47f6-46c1-b77a-2189f51d7d4d")
+		)
+		(pin "35"
+			(uuid "bb8aaeb1-6ef0-44cb-aeaf-3dcf912cc58b")
+		)
+		(pin "39"
+			(uuid "a53f0ed0-7aa9-477d-8da6-afdc6c8c9452")
+		)
+		(pin "40"
+			(uuid "cca0b708-d0f1-4492-a7e0-f72ed533c4cd")
+		)
+		(pin "17"
+			(uuid "6cdb5df1-50c3-4895-9b5c-fea58eab4469")
+		)
+		(pin "29"
+			(uuid "4ddfeb08-1ba6-42a2-a1a1-5eac0d59dd5c")
+		)
+		(pin "5"
+			(uuid "d30f58d9-56b4-42b9-bfcc-e09599775e93")
+		)
+		(pin "6"
+			(uuid "b0118a71-8edc-4bdc-9aff-2c28104a90f1")
+		)
+		(pin "32"
+			(uuid "e1bcad42-1256-43ae-8355-1cfaaf4f2058")
+		)
+		(pin "27"
+			(uuid "c6c88a4a-bb5f-48f9-8712-e304d9581247")
+		)
+		(pin "4"
+			(uuid "65ba71dc-f418-433a-bc1a-5d08d07817d5")
+		)
+		(pin "8"
+			(uuid "a05695d1-1d60-4691-ba27-04d976ea9445")
+		)
+		(pin "9"
+			(uuid "1f55e339-ea71-45cc-8393-060d2081be73")
+		)
+		(pin "2"
+			(uuid "092287df-9371-41ce-87e7-d153eb51da4c")
+		)
+		(pin "21"
+			(uuid "4b65a79d-0e14-4a26-8505-6fa8a14c94d2")
+		)
+		(pin "33"
+			(uuid "617aea48-b6d9-47bf-ac1d-d70bd7e2a7c7")
+		)
+		(pin "11"
+			(uuid "0e4de283-1089-4fbc-a27f-4bc42ae7ec7f")
+		)
+		(pin "18"
+			(uuid "a179307f-e42d-4541-8360-ca3af9349a97")
+		)
+		(pin "37"
+			(uuid "98661259-ba00-4c5c-8b87-eadbc0e3adae")
+		)
+		(pin "28"
+			(uuid "f042db59-c356-4adf-8c42-3df708d0c881")
+		)
+		(pin "7"
+			(uuid "8adf5c6a-12e7-446d-aa5e-93f7fbbf50c6")
+		)
+		(pin "12"
+			(uuid "ba5ebdec-d285-4248-a6f5-e44d37a42b75")
+		)
+		(pin "31"
+			(uuid "89750b3f-f411-4213-baa0-52c74a6a3299")
+		)
+		(pin "23"
+			(uuid "82f0e57d-01b2-42ab-ab36-4754bcc3d5c3")
+		)
+		(pin "34"
+			(uuid "6fea54b3-76a5-45ba-8a7f-0f745fcb1579")
+		)
+		(pin "14"
+			(uuid "007c2687-45bb-4392-9ec3-9bac2ee049b4")
+		)
+		(pin "10"
+			(uuid "199847eb-6d57-4a0d-b626-b12f5904cc28")
+		)
+		(pin "16"
+			(uuid "6109b61f-c5bf-44ed-83f3-f44755b22d23")
+		)
+		(pin "25"
+			(uuid "1980376d-0e11-4aec-8fc9-b65850f38e9b")
+		)
+		(pin "30"
+			(uuid "4fd8789a-b459-4fc0-8a41-00b711cc4a7f")
+		)
+		(pin "26"
+			(uuid "311275da-9a7a-4059-b91b-b9b954f3a715")
+		)
+		(pin "1"
+			(uuid "4061b19f-0b62-41ea-82f1-67ccfe53eb53")
+		)
+		(pin "22"
+			(uuid "8f65b044-7a3f-4bb6-9efc-3b2d592f3971")
+		)
+		(pin "19"
+			(uuid "811577a4-153b-4d64-8d93-1b4f0169306c")
+		)
+		(pin "38"
+			(uuid "a1f9ea07-7a13-4235-b24b-14e0d5c2dea8")
+		)
+		(instances
+			(project "xbox2sata"
+				(path "/29cbf96f-e8a1-446a-9b4f-b577bf6e6f05"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 85.09 48.26 0)
+		(at 38.1 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4546,7 +5880,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f2288ed-4e60-4beb-9256-3402897e5d05")
 		(property "Reference" "TP2"
-			(at 87.63 43.6879 0)
+			(at 40.64 46.2279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4555,7 +5889,7 @@
 			)
 		)
 		(property "Value" "xbox_3V3"
-			(at 87.63 46.2279 0)
+			(at 40.64 48.7679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,8 +5897,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 90.17 48.26 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
+			(at 43.18 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4573,7 +5907,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 48.26 0)
+			(at 43.18 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4582,7 +5916,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 85.09 48.26 0)
+			(at 38.1 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4604,7 +5938,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 100.33 48.26 0)
+		(at 53.34 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4613,7 +5947,7 @@
 		(fields_autoplaced yes)
 		(uuid "9877c4f9-1966-4966-829f-7fd8e14b6cc6")
 		(property "Reference" "TP1"
-			(at 102.87 43.6879 0)
+			(at 55.88 46.2279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4622,7 +5956,7 @@
 			)
 		)
 		(property "Value" "xbox_ground"
-			(at 102.87 46.2279 0)
+			(at 55.88 48.7679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,8 +5964,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 105.41 48.26 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
+			(at 58.42 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,7 +5974,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 48.26 0)
+			(at 58.42 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,7 +5983,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 100.33 48.26 0)
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,6 +5998,126 @@
 			(project "xbox2sata"
 				(path "/29cbf96f-e8a1-446a-9b4f-b577bf6e6f05"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "xbox2sata:ABLS-25.000MHZ-B4-F-T")
+		(at 193.04 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d369ad1-420c-42bc-bcd0-9fbbf43e3c79")
+		(property "Reference" "Y1"
+			(at 198.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ABLS-25.000MHZ-B4-F-T"
+			(at 198.12 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "xbox2sata:Crystal"
+			(at 201.93 246.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://abracon.com/Resonators/abls.pdf"
+			(at 201.93 346.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "HC/49US (AT49) SMD LOW PROFILE CRYSTAL"
+			(at 201.676 159.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 201.93 546.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "815-ABLS-25.0M-F-T"
+			(at 201.93 646.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ABLS-25.000MHZ-B4-F-T?qs=yTU0IcKoRlHGW93axwFkQw%3D%3D"
+			(at 201.93 746.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ABRACON"
+			(at 201.93 846.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ABLS-25.000MHZ-B4-F-T"
+			(at 201.93 946.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "60ca8cda-2f97-4a12-a6e4-d0808496cd8b")
+		)
+		(pin "1"
+			(uuid "45f637c1-d45e-4483-a124-f173c6c870bc")
+		)
+		(instances
+			(project "xbox2sata"
+				(path "/29cbf96f-e8a1-446a-9b4f-b577bf6e6f05"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
