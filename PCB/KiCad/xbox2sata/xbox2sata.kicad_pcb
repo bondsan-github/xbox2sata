@@ -1412,7 +1412,7 @@
 			(pintype "power_in")
 			(uuid "f873ef88-2a5b-4a3d-ba55-94bf4d995042")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-64-1EP_9x9mm_P0.5mm_EP3.4x3.4mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-64-1EP_9x9mm_P0.5mm_EP7.35x7.35mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1758,7 +1758,7 @@
 			(pintype "passive")
 			(uuid "6077539f-279e-4827-992c-46f2d6e204b3")
 		)
-		(model "D:/Gaming hardware/Microsoft XBox/Modifications/HDD/XBox-IDE to-SATA/PCB/Imports/LIB_ABLS-25.000MHZ-B4-F-T KiCad/ABLS-25.000MHZ-B4-F-T.stp"
+		(model "D:/Gaming hardware/Microsoft XBox/Modifications/HDD/XBox-IDE to-SATA/PCB/KiCad/Imports/LIB_ABLS-25.000MHZ-B4-F-T KiCad/ABLS-25.000MHZ-B4-F-T.stp"
 			(offset
 				(xyz 0 0 2.7)
 			)
@@ -1934,14 +1934,14 @@
 	)
 	(footprint "xbox2sata:WURTH-ELEKTRONIK_61203921621"
 		(layer "F.Cu")
-		(uuid "4fe37a9e-bdb2-45ce-a2a6-de83ff544e08")
-		(at 167.87 71.73)
+		(uuid "5641e686-a7e9-47c8-b7e3-e6d144324c48")
+		(at 167.65 73.27)
 		(descr "IDE socket")
 		(tags "IDE socket")
 		(property "Reference" "J1"
 			(at -26.305 -6.31 0)
 			(layer "F.SilkS")
-			(uuid "ba731e00-f564-43f3-80f7-c8d9a94f6be5")
+			(uuid "cb3fd232-0df6-4575-92ea-8fae36655572")
 			(effects
 				(font
 					(size 1 1)
@@ -1952,7 +1952,7 @@
 		(property "Value" "61203921621"
 			(at -11.7 6.31 0)
 			(layer "F.Fab")
-			(uuid "e9ddf05a-e1b8-488f-baad-c4a06b59760b")
+			(uuid "a5560739-659c-4821-b4d7-3048b83bf9f8")
 			(effects
 				(font
 					(size 1 1)
@@ -1965,7 +1965,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a5bb1db6-99aa-470c-ae6b-3ddc80a1d8e0")
+			(uuid "196a5296-54c4-46ea-9fd3-2e44e91c7b9c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,19 +1977,19 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5e74b5f5-29b8-432f-9167-85c04b36b1fb")
+			(uuid "59769c11-b106-438b-9a4d-e5575aa0aa2d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "IDE Socket"
+		(property "Description" "IDE male header"
 			(at 8.5 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "59e1739e-87b3-4346-a59f-37770b121b19")
+			(uuid "56b6a34e-56e9-4a66-ad99-fee23c59f51f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2001,7 +2001,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9b22394-a703-487f-ae58-520099d1c478")
+			(uuid "6f2f698f-8aeb-41d2-98f7-7dc4f72caa3b")
 			(effects
 				(font
 					(size 1 1)
@@ -2014,7 +2014,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bee316f5-7138-47ec-b7f0-644e4d2a890e")
+			(uuid "edcbf13a-2a7a-405b-928a-98800d6a18c0")
 			(effects
 				(font
 					(size 1 1)
@@ -2027,7 +2027,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0b772f3-6df9-4134-98d9-fb8611772e3e")
+			(uuid "4913c287-e220-4a4f-8106-64fbb4d6066e")
 			(effects
 				(font
 					(size 1 1)
@@ -2040,7 +2040,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc916e5c-b43e-457c-8abc-3d593d768a17")
+			(uuid "4096dc23-e38b-4c19-bfe1-b3e58144910a")
 			(effects
 				(font
 					(size 1 1)
@@ -2053,7 +2053,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ebb9cdbb-eb37-421a-aed9-6ef92565d8c5")
+			(uuid "4263da02-5fb0-45cd-a723-c3298a975b1e")
 			(effects
 				(font
 					(size 1 1)
@@ -2061,6 +2061,9 @@
 				)
 			)
 		)
+		(path "/7ea6f8ea-9d52-429b-9e25-c91b56e61752")
+		(sheetname "Root")
+		(sheetfile "xbox2sata.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -29.23 -4.425)
@@ -2070,7 +2073,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "933390be-e311-40f7-9b7b-99394fe0ea62")
+			(uuid "0eec59fd-e0cf-4b66-87b6-644a3c55a05e")
 		)
 		(fp_line
 			(start -29.23 4.425)
@@ -2080,7 +2083,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "92a4957e-9ddf-472b-adec-0e6ca7386f8b")
+			(uuid "21bd9bef-7805-4f81-acda-9f3e74a0ba62")
 		)
 		(fp_line
 			(start 29.23 -4.425)
@@ -2090,7 +2093,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bf55b327-278d-4fc8-8b98-06a8d466dd3f")
+			(uuid "a085b364-3196-4070-ad01-05169ed404c1")
 		)
 		(fp_line
 			(start 29.23 4.425)
@@ -2100,7 +2103,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "79ead6eb-0913-4192-bd3c-b77a3f930605")
+			(uuid "fe355087-118e-4d6e-a782-6a4894d3b14f")
 		)
 		(fp_circle
 			(center -25 4.9)
@@ -2111,7 +2114,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "9b756a2b-e7b3-43d9-9cd6-a0bbc1cb41a5")
+			(uuid "a83083ca-fd2d-4d7e-abd5-b997986bf42c")
 		)
 		(fp_line
 			(start -29.48 -4.925)
@@ -2121,7 +2124,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "79784f42-20ad-4108-a974-7f137cf3feb7")
+			(uuid "be9372a5-dc0d-4944-bebc-b9175f84d1c7")
 		)
 		(fp_line
 			(start -29.48 4.675)
@@ -2131,7 +2134,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "243992d1-400f-4f90-aa07-81d2589c6330")
+			(uuid "d7a916d4-e275-4b09-92be-cbf2bf7a8ab0")
 		)
 		(fp_line
 			(start 29.48 -4.925)
@@ -2141,7 +2144,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "61d32de1-de7c-4ef3-b52e-5431dac769c1")
+			(uuid "b5240eba-6e6d-4d3a-aa98-a7cc43a4eab8")
 		)
 		(fp_line
 			(start 29.48 4.675)
@@ -2151,7 +2154,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5b85815a-d76a-46a7-b6eb-3856974125a9")
+			(uuid "631c3d59-a617-4b31-9d48-71720412b403")
 		)
 		(fp_line
 			(start -29.23 -4.425)
@@ -2161,7 +2164,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a00451d4-b0b5-4050-83b6-fc8ac7ae4015")
+			(uuid "221494b7-e4c8-441f-96ee-cce8453c9dee")
 		)
 		(fp_line
 			(start -29.23 4.425)
@@ -2171,7 +2174,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "58a6efa0-2dc3-4138-9c4c-cd26c72ec785")
+			(uuid "07c9343d-9171-40fa-ac59-7e0f15a33e6f")
 		)
 		(fp_line
 			(start 29.23 -4.425)
@@ -2181,7 +2184,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "94017f8c-d7c1-4bec-ba73-71f3284bee2a")
+			(uuid "407c6e74-5220-41c4-95d6-6c8521b17c21")
 		)
 		(fp_line
 			(start 29.23 4.425)
@@ -2191,7 +2194,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8ac69998-8958-4cf4-b2d4-42c2bb1acfc1")
+			(uuid "24030c99-bf48-4143-8c5b-bd7e9025ac60")
 		)
 		(fp_circle
 			(center -25 4.9)
@@ -2202,7 +2205,7 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "da8652f8-bc9a-47bc-9c4e-0864e4fc6916")
+			(uuid "1ef2f9fd-40de-4daa-bddd-808e76356e60")
 		)
 		(pad "1" thru_hole rect
 			(at -24.13 1.27)
@@ -2214,7 +2217,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "368ee65a-2c06-4e22-9f39-0625d3a5aba1")
+			(uuid "c13538fb-9754-4656-bd86-acc48bbe3028")
 		)
 		(pad "2" thru_hole circle
 			(at -24.13 -1.27)
@@ -2226,7 +2229,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "9a7de694-0c27-446c-be1d-10df5a2133f2")
+			(uuid "0b30d9a7-c112-4473-9ad8-27180d6239e9")
 		)
 		(pad "3" thru_hole circle
 			(at -21.59 1.27)
@@ -2238,7 +2241,7 @@
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "c048e60e-cc9d-423d-9f5a-1534bde1f62a")
+			(uuid "4d4e6ea7-bab3-4e0c-a09f-1f1658979656")
 		)
 		(pad "4" thru_hole circle
 			(at -21.59 -1.27)
@@ -2250,7 +2253,7 @@
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "661428fa-2266-46f4-b83f-db9e27981d27")
+			(uuid "11162ace-3576-489f-a8ae-764b958e34b5")
 		)
 		(pad "5" thru_hole circle
 			(at -19.05 1.27)
@@ -2262,7 +2265,7 @@
 			(pinfunction "5")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "1a245e56-5736-4a1f-9af6-5544659e070c")
+			(uuid "cebb779d-2d69-4ecd-818e-35a11f39228b")
 		)
 		(pad "6" thru_hole circle
 			(at -19.05 -1.27)
@@ -2274,7 +2277,7 @@
 			(pinfunction "6")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "d3008054-d14d-4525-9808-f83d413f5b95")
+			(uuid "7024ed70-6275-4345-9235-31a543d96366")
 		)
 		(pad "7" thru_hole circle
 			(at -16.51 1.27)
@@ -2286,7 +2289,7 @@
 			(pinfunction "7")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "59ff2ee1-8a60-4b2c-87a9-b6bd2fb06e6f")
+			(uuid "d1d8761d-d3e1-4fff-8cbd-74dca4b8689f")
 		)
 		(pad "8" thru_hole circle
 			(at -16.51 -1.27)
@@ -2298,7 +2301,7 @@
 			(pinfunction "8")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "e19db43a-6dcc-41ea-aeff-817fcc6f5bb4")
+			(uuid "7b931e12-59ff-4a14-9bbd-91cb9430952c")
 		)
 		(pad "9" thru_hole circle
 			(at -13.97 1.27)
@@ -2310,7 +2313,7 @@
 			(pinfunction "9")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "3ad4723d-ad34-4bd1-9bcb-922784a00369")
+			(uuid "e7509d59-f75b-4095-af03-9b0db29a8e8e")
 		)
 		(pad "10" thru_hole circle
 			(at -13.97 -1.27)
@@ -2322,7 +2325,7 @@
 			(pinfunction "10")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "824bad98-0ad9-4487-adbd-8cb143ee75af")
+			(uuid "4c4fb359-b02c-41e4-bf23-8ebe0f7c23ab")
 		)
 		(pad "11" thru_hole circle
 			(at -11.43 1.27)
@@ -2334,7 +2337,7 @@
 			(pinfunction "11")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "4c40b7f7-a7aa-4b53-a1ea-3c7b01f82e11")
+			(uuid "2a778a6a-af96-4a5f-a5cf-20a7fc6ef6b0")
 		)
 		(pad "12" thru_hole circle
 			(at -11.43 -1.27)
@@ -2346,7 +2349,7 @@
 			(pinfunction "12")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "284bcace-5181-4d2a-8c56-fe0b823732e2")
+			(uuid "8aafd056-b2eb-44ea-bbaa-d2859b2b4902")
 		)
 		(pad "13" thru_hole circle
 			(at -8.89 1.27)
@@ -2358,7 +2361,7 @@
 			(pinfunction "13")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "256a2a87-1d99-4215-befe-0d51b48a7c6c")
+			(uuid "5213e1c2-49b6-4173-b214-9ca24939c1e6")
 		)
 		(pad "14" thru_hole circle
 			(at -8.89 -1.27)
@@ -2370,7 +2373,7 @@
 			(pinfunction "14")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "e077f745-4741-4e40-bb49-77edb12e40a1")
+			(uuid "8c1b8caa-95f2-4aae-bce7-2bdbdbeb9d0f")
 		)
 		(pad "15" thru_hole circle
 			(at -6.35 1.27)
@@ -2382,7 +2385,7 @@
 			(pinfunction "15")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "70d9f4d0-ddfb-454a-b4b1-7b9ec11f4131")
+			(uuid "d70855d7-5031-4470-a4c8-58f80cacddbf")
 		)
 		(pad "16" thru_hole circle
 			(at -6.35 -1.27)
@@ -2394,7 +2397,7 @@
 			(pinfunction "16")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "1a0d9d12-524a-4738-89c2-87caa4a9e84f")
+			(uuid "3aeb094d-2bfe-4d3e-b6bc-5ef0ce4b57a8")
 		)
 		(pad "17" thru_hole circle
 			(at -3.81 1.27)
@@ -2406,7 +2409,7 @@
 			(pinfunction "17")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "f2c627fb-a616-4b9b-b5b8-a7e9ba17c2a2")
+			(uuid "7823bbea-fbf2-465e-85dc-5c4b89e49943")
 		)
 		(pad "18" thru_hole circle
 			(at -3.81 -1.27)
@@ -2418,7 +2421,7 @@
 			(pinfunction "18")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "f26b1a46-19e1-478e-a262-68dd9a7c6d2e")
+			(uuid "3d5e5948-3efb-4b9b-a414-a7bf812d5fff")
 		)
 		(pad "19" thru_hole circle
 			(at -1.27 1.27)
@@ -2430,7 +2433,7 @@
 			(pinfunction "19")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "a92c66e3-b053-44bf-8484-51ec6e8481e9")
+			(uuid "ca17013d-b3bb-4262-8d9b-cd876b4a6a15")
 		)
 		(pad "21" thru_hole circle
 			(at 1.27 1.27)
@@ -2442,7 +2445,7 @@
 			(pinfunction "21")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "88ade518-57eb-4510-842e-ed302b2c0096")
+			(uuid "f4b0aeee-25b4-4f84-a0ec-f7ebf9d8d316")
 		)
 		(pad "22" thru_hole circle
 			(at 1.27 -1.27)
@@ -2454,7 +2457,7 @@
 			(pinfunction "22")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "c5f4fd0a-85c6-4034-a37e-9df6ac2cdc65")
+			(uuid "49a2c60a-731e-428d-a8b1-26d2beee8076")
 		)
 		(pad "23" thru_hole circle
 			(at 3.81 1.27)
@@ -2466,7 +2469,7 @@
 			(pinfunction "23")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "f6947159-ccd8-419e-b445-ae50961ed815")
+			(uuid "60dfa1c5-6dab-45c4-ac91-5f37f7386c46")
 		)
 		(pad "24" thru_hole circle
 			(at 3.81 -1.27)
@@ -2478,7 +2481,7 @@
 			(pinfunction "24")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "0c42721d-7f91-4358-a94d-559e75ed60eb")
+			(uuid "34585989-362b-46a3-abed-5dffeafa61f4")
 		)
 		(pad "25" thru_hole circle
 			(at 6.35 1.27)
@@ -2490,7 +2493,7 @@
 			(pinfunction "25")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "1d22dd71-b0bc-453c-8483-2f4ca24bd95d")
+			(uuid "5d95ecb3-2e9d-4c94-8f10-2bd8e7183a62")
 		)
 		(pad "26" thru_hole circle
 			(at 6.35 -1.27)
@@ -2502,7 +2505,7 @@
 			(pinfunction "26")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "d899b51c-c607-4a7f-af0b-bd64f5e4132c")
+			(uuid "f5cb6fd8-1ce0-41c3-a9ec-de708b06e1d0")
 		)
 		(pad "27" thru_hole circle
 			(at 8.89 1.27)
@@ -2514,7 +2517,7 @@
 			(pinfunction "27")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "672e6b57-6172-48a1-9c0f-b5ec57462fdf")
+			(uuid "7f6f950d-6374-412a-9527-8c3360dbbe8a")
 		)
 		(pad "28" thru_hole circle
 			(at 8.89 -1.27)
@@ -2526,7 +2529,7 @@
 			(pinfunction "28")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "52ef0e22-eae9-48ac-93d3-8be759f6dbef")
+			(uuid "4b656fab-1c06-4dad-9302-37d2d4087cd8")
 		)
 		(pad "29" thru_hole circle
 			(at 11.43 1.27)
@@ -2538,7 +2541,7 @@
 			(pinfunction "29")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "8cbf2a24-7781-4b04-b1ee-56333f24b9e6")
+			(uuid "21a7e4da-6f12-43d6-a652-203e82ceca65")
 		)
 		(pad "30" thru_hole circle
 			(at 11.43 -1.27)
@@ -2550,7 +2553,7 @@
 			(pinfunction "30")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "1ce96491-de8c-41c9-be03-88b1e4297b8a")
+			(uuid "0571f2b2-2820-4a31-bed8-a330cf2b7d4c")
 		)
 		(pad "31" thru_hole circle
 			(at 13.97 1.27)
@@ -2562,7 +2565,7 @@
 			(pinfunction "31")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "b19670e6-6e43-4c4b-8cb9-d7b31dcc6c66")
+			(uuid "c22411b0-f757-461a-bc94-72aba0ce9e8a")
 		)
 		(pad "32" thru_hole circle
 			(at 13.97 -1.27)
@@ -2574,7 +2577,7 @@
 			(pinfunction "32")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "cd072c03-af4a-4f39-ac0f-a6f7337b4834")
+			(uuid "551f328b-c6ba-498c-b637-5c37c0cd5d81")
 		)
 		(pad "33" thru_hole circle
 			(at 16.51 1.27)
@@ -2586,7 +2589,7 @@
 			(pinfunction "33")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "e4b139fd-7ede-4b63-808c-648e91dde6eb")
+			(uuid "622fa6bc-74cd-446c-8244-06bb583d01b5")
 		)
 		(pad "34" thru_hole circle
 			(at 16.51 -1.27)
@@ -2598,7 +2601,7 @@
 			(pinfunction "34")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "44fbe1fc-c215-45cc-81e4-556feb1b70bf")
+			(uuid "0d8075f3-7f2b-4c57-9ca4-3df387854990")
 		)
 		(pad "35" thru_hole circle
 			(at 19.05 1.27)
@@ -2610,7 +2613,7 @@
 			(pinfunction "35")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "8e518f60-3723-41ab-8bfe-3c4697b7dc4f")
+			(uuid "b1dfec97-291f-4f3a-9228-4f9e3867f93f")
 		)
 		(pad "36" thru_hole circle
 			(at 19.05 -1.27)
@@ -2622,7 +2625,7 @@
 			(pinfunction "36")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "ae89f56b-8dd2-4fd2-972d-8d4c3499fbc3")
+			(uuid "859eea5d-6820-402e-98eb-4e73b56db87f")
 		)
 		(pad "37" thru_hole circle
 			(at 21.59 1.27)
@@ -2634,7 +2637,7 @@
 			(pinfunction "37")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "fc6b12f8-d2e5-4e00-ba41-c829931cc4fd")
+			(uuid "49926b22-7a2b-46d8-a79b-90dea785a682")
 		)
 		(pad "38" thru_hole circle
 			(at 21.59 -1.27)
@@ -2646,7 +2649,7 @@
 			(pinfunction "38")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "eab0bf35-dd0e-4ead-83d2-451a59933335")
+			(uuid "78a94f41-4d70-4bf4-8221-818d00a4be92")
 		)
 		(pad "39" thru_hole circle
 			(at 24.13 1.27)
@@ -2658,7 +2661,7 @@
 			(pinfunction "39")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "c6af115f-ec7e-4a2a-9d00-0626d1a9f226")
+			(uuid "bb01d5bf-1366-4722-9912-f5140cf8d77b")
 		)
 		(pad "40" thru_hole circle
 			(at 24.13 -1.27)
@@ -2670,11 +2673,11 @@
 			(pinfunction "40")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "12ddc7e9-438d-4de1-a19e-610d6b4f9a44")
+			(uuid "cbace34b-906f-4a97-a3fa-a0c69aa3b9ba")
 		)
-		(model "D:/Gaming hardware/Microsoft XBox/Modifications/HDD/XBox-IDE to-SATA/PCB/Imports/1761633-2.stp"
+		(model "D:/Gaming hardware/Microsoft XBox/Modifications/HDD/XBox-IDE to-SATA/PCB/KiCad/Imports/61203921621_Download_STP_61203921621_rev1.stp"
 			(offset
-				(xyz 0 0 9.5)
+				(xyz 0 0 5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -3170,7 +3173,7 @@
 			(pintype "power_in")
 			(uuid "9a23db87-62c5-4d1d-8819-f3998c86c927")
 		)
-		(model "D:/Gaming hardware/Microsoft XBox/Modifications/HDD/XBox-IDE to-SATA/PCB/Imports/678008025.stp"
+		(model "D:/Gaming hardware/Microsoft XBox/Modifications/HDD/XBox-IDE to-SATA/PCB/KiCad/Imports/678008025.stp"
 			(offset
 				(xyz -4 0.8 4)
 			)
@@ -3886,7 +3889,7 @@
 			(pintype "passive")
 			(uuid "9edbd9be-d6c1-4855-b7dd-18bcaf3e2ce3")
 		)
-		(model "D:/Gaming hardware/Microsoft XBox/Modifications/HDD/XBox-IDE to-SATA/PCB/Imports/Molex 90151-2140 KiCad/90151-2140.stp"
+		(model "D:/Gaming hardware/Microsoft XBox/Modifications/HDD/XBox-IDE to-SATA/PCB/KiCad/Imports/Molex 90151-2140 KiCad/90151-2140.stp"
 			(offset
 				(xyz 24.1 1.3 4)
 			)

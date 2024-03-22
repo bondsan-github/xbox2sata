@@ -1,4 +1,4 @@
-23130134663763542
+23133559438424178
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94738,12 +94738,26 @@ Varistor VF
 2
 2
 xbox2sata
+88SA8052
+
+
+0
+0
+0
+xbox2sata
 CONN_67800-8025_MOL
 SATA data socket
 67800-8025 SATA data socket
 0
 9
 9
+xbox2sata
+Crystal
+ABLS
+Crystal or Oscillator
+0
+2
+2
 xbox2sata
 RHDR40W70P254_2X20_5065X498X870P
 90151-2140

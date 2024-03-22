@@ -5666,7 +5666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "61203921621:WURTH-ELEKTRONIK_61203921621"
+		(property "Footprint" "xbox2sata:WURTH-ELEKTRONIK_61203921621"
 			(at 126.238 98.044 0)
 			(effects
 				(font

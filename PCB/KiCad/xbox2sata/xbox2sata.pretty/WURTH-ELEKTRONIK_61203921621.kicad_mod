@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "xbox2sata:WURTH-ELEKTRONIK_61203921621"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -557,9 +557,9 @@
 		(solder_mask_margin 0.102)
 		(uuid "b5f0e2e8-c75c-451d-98bd-aeaef95e5521")
 	)
-	(model "D:/Gaming hardware/Microsoft XBox/Modifications/HDD/XBox-IDE to-SATA/PCB/Imports/1761633-2.stp"
+	(model "D:/Gaming hardware/Microsoft XBox/Modifications/HDD/XBox-IDE to-SATA/PCB/KiCad/Imports/61203921621_Download_STP_61203921621_rev1.stp"
 		(offset
-			(xyz 0 0 9.5)
+			(xyz 0 0 5)
 		)
 		(scale
 			(xyz 1 1 1)

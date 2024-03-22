@@ -1726,7 +1726,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 8.89 6.35 0)
+			(at 6.096 3.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1734,7 +1734,7 @@
 			)
 		)
 		(property "Value" "67800-8025"
-			(at -3.048 -22.098 0)
+			(at -14.732 -23.622 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1743,7 +1743,7 @@
 			)
 		)
 		(property "Footprint" "xbox2sata:CONN_67800-8025_MOL"
-			(at 1.016 -19.558 0)
+			(at -10.668 -21.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,7 +1753,7 @@
 			)
 		)
 		(property "Datasheet" "67800-8025"
-			(at -4.572 -24.638 0)
+			(at -16.256 -26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1763,7 +1763,7 @@
 			)
 		)
 		(property "Description" "SATA data socket"
-			(at 0 0 0)
+			(at -0.508 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,6 +2208,42 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 11.43 7.62 270)
+				(length 5.08)
+				(name "mount_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 11.43 -22.86 90)
+				(length 5.08)
+				(name "mount_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
