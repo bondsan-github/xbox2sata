@@ -1,6 +1,11 @@
 Aim
 ===
-Create a IDE to SATA bridge PCB with pass-through socket for XBox DVD cable. 
+- Create a IDE to SATA bridge PCB with pass-through socket for XBox DVD cable.
+
+Motivation
+==========
+- Remove the need for a 80 wire IDE cable
+- Use existing IDE cable for DVD drive
 
 Completed
 =========
@@ -11,11 +16,12 @@ To do
 =====
 Measure components;
 - L1
-- R5
-- R6
 
-- Find suitable 5V and ground points to tap on XBox motherboard.
+- Find suitable 3V3 and ground points to tap on XBox motherboards
 - Measure available space inside XBox under DVD drive.
+  - there is/are a radial capacaitor/s close to the IDE header
+    - I would like to not make a hole in the PCB for matched IDE to IDE routing lengths
+    - The capactor/s have enough leg legnth to pull up and lay flat
 
 - Can xbox ide connection be directly connected to DVD connection?
   - Simular how a IDE cable does?
