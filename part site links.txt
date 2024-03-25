@@ -29,3 +29,31 @@ Crystal 25 MHz
 ==============
 
 https://www.mouser.co.uk/ProductDetail/ABRACON/ABLS-25.000MHZ-B4-F-T?qs=yTU0IcKoRlHGW93axwFkQw%3D%3D
+
+1V2 voltage regulator
+=====================
+
+https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV1117LV12DCYR?qs=sGAEpiMZZMug9GoBKXZ754ENSUSpJrT16r9egrCMgpA%3D
+
+Qty.	Unit Price	
+1	£0.32
+
+TLV1117LV12DCYR
+SOT-223-4
+
+Output Voltage:	1.2 V	
+Output Current:	1 A	
+Number of Outputs: 1 Output	
+Polarity: Positive	
+Quiescent Current: 100 uA	
+Input Voltage, Min: 2 V	
+Input Voltage, Max: 5.5 V	
+Output Type: Fixed	
+Minimum Operating Temperature: - 40 C
+Maximum Operating Temperature: + 125 C
+Dropout Voltage: 570 mV
+
+1uF MLC capacitor
+=================
+
+https://www.mouser.co.uk/ProductDetail/TDK/C1608X7R1A105K080AC?qs=sGAEpiMZZMvsSlwiRhF8qsDt8B2LujiHUbYo2GZr%2FWE%3D

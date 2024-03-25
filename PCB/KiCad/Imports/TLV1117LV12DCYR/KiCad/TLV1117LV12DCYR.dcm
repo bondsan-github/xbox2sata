@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV1117LV12DCYR
+D 1-A, Positive Fixed Voltage, Low-Dropout Regulator
+K
+F http://www.ti.com/lit/gpn/tlv1117lv
+$ENDCMP
+#
+#End Doc Library

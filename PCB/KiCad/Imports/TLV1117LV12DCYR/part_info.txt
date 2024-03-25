@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TLV1117LV12DCYR
+PartCategory=Integrated Circuit
+PackageCategory=SOT223 (3-Pin)
+PinCount=4
+Version=1.1
+Released=2019-06-09 07:58:03
+Downloaded=2024-03-25 14:08:28
+3D=Y
