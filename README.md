@@ -59,9 +59,10 @@ Desirables
   
 Software used
 =============
-- Proteus 8.15 SP1
 - GIMP 2.99.18 development release
-
+- KiCad Schematic Editor 8.0.1
+- Proteus 8.15 SP1
+  
 Sources
 =======
 - https://www.psdevwiki.com/ps3/88SA8040-TBC1
