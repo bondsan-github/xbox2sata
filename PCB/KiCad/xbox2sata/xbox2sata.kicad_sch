@@ -8239,28 +8239,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 36.83 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "420f2e71-d7f3-41d0-8d38-249be4854aab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.6857 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DD12"
 		(shape input)
 		(at 59.69 172.72 0)
@@ -14245,70 +14223,6 @@
 			(project "xbox2sata"
 				(path "/29cbf96f-e8a1-446a-9b4f-b577bf6e6f05"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 36.83 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9877c4f9-1966-4966-829f-7fd8e14b6cc6")
-		(property "Reference" "TP1"
-			(at 34.544 33.782 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "xbox_ground"
-			(at 38.608 38.354 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
-			(at 36.83 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 36.83 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f05d05a-50b4-45c2-8bbc-2ceef963f5d4")
-		)
-		(instances
-			(project "xbox2sata"
-				(path "/29cbf96f-e8a1-446a-9b4f-b577bf6e6f05"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
