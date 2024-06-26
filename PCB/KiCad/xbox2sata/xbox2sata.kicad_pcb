@@ -194,7 +194,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0271300b-9d88-4f49-91b2-30eb851163da")
-		(at 123.3 65.125)
+		(at 133.635 59.225)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "C13"
@@ -229,6 +229,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -241,6 +242,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -253,6 +255,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -405,7 +408,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "03477c97-d47c-4a12-8056-c103c3dc3a2b")
-		(at 107.7725 63.525 180)
+		(at 118.1075 57.625 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R12"
@@ -440,6 +443,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -452,6 +456,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -464,6 +469,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -616,7 +622,7 @@
 	(footprint "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP3.4x3.4mm_ThermalVias"
 		(layer "F.Cu")
 		(uuid "09ea10b7-84ab-44d3-8aaf-7c43defe1185")
-		(at 114.625 69.5 -90)
+		(at 124.96 63.6 -90)
 		(descr "QFN, 64 Pin (www.intel.com/content/www/us/en/ethernet-controllers/i210-ethernet-controller-datasheet.html), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U1"
@@ -651,6 +657,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -663,6 +670,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -675,6 +683,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1740,11 +1749,11 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "1c951c82-abe3-4b6e-acb4-335f5adae15e")
-		(at 107.6975 71.575)
+		(at 118.0325 65.675)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
-			(at -1.7525 0.075 360)
+			(at -1.7525 0.075 0)
 			(layer "F.SilkS")
 			(uuid "32a72fef-57a7-45b8-a81d-4183e72d130d")
 			(effects
@@ -1755,7 +1764,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "33b36795-295c-4c7f-8e38-aea56d50c090")
@@ -1775,6 +1784,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1787,6 +1797,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1799,6 +1810,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1908,7 +1920,7 @@
 			(uuid "9869814f-c690-4f46-95f6-0aa803348781")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "127744ae-28c1-41d9-9a48-6167337c5d29")
 			(effects
@@ -1951,11 +1963,11 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "1f7c7912-1e95-4718-a1bf-c03b9e7363c0")
-		(at 113.725 76.4275 90)
+		(at 124.06 70.5275 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R17"
-			(at -1.9475 -0.05 270)
+			(at -1.9475 -0.05 -90)
 			(layer "F.SilkS")
 			(uuid "8fb260a5-311c-434e-8c9b-92456746ca9e")
 			(effects
@@ -1966,7 +1978,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "873d9c7f-670f-49da-a12c-7f816f59e311")
@@ -1986,6 +1998,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1998,6 +2011,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2010,6 +2024,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2151,7 +2166,7 @@
 	(footprint "xbox2sata:Crystal"
 		(layer "F.Cu")
 		(uuid "22fe599f-e5df-4f02-a77f-d8023f114e19")
-		(at 113.57 85.8)
+		(at 123.905 79.9)
 		(descr "ABLS")
 		(tags "Crystal or Oscillator")
 		(property "Reference" "Y1"
@@ -2186,6 +2201,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2198,6 +2214,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2210,6 +2227,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2497,7 +2515,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "272eb318-337a-4b7f-9b32-4224151ba55c")
-		(at 117.025 76.4175 -90)
+		(at 127.36 70.5175 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
@@ -2532,6 +2550,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2544,6 +2563,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2556,6 +2576,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2697,11 +2718,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "2fdf294c-1794-42a2-86f4-ac8b962ed461")
-		(at 114.375 62.0825 90)
+		(at 124.71 56.1825 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C3"
-			(at 1.7325 -0.125 270)
+			(at 1.7325 -0.125 -90)
 			(layer "F.SilkS")
 			(uuid "b21952a6-45a8-4a0e-985a-7b9a38fa20cb")
 			(effects
@@ -2712,7 +2733,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.16 270)
+			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5c22441f-7ab7-4ca1-8e65-5852127de431")
@@ -2732,6 +2753,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2744,6 +2766,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2756,6 +2779,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2865,7 +2889,7 @@
 			(uuid "f5dd69a2-a8ca-4515-8c5d-c9be58b4c112")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "2902b043-4c44-48d6-831f-e21ee5169662")
 			(effects
@@ -2908,7 +2932,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3a99d0f8-4ec1-4c3b-9f5d-553eddda2b68")
-		(at 113.2475 90)
+		(at 123.5825 84.1)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
@@ -2943,6 +2967,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2955,6 +2980,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2967,6 +2993,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3119,7 +3146,7 @@
 	(footprint "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
 		(layer "F.Cu")
 		(uuid "49bea88e-a1c9-4ac7-a5ee-e1f53e5b2c43")
-		(at 110.14 117.025)
+		(at 119.015 109.45)
 		(descr "THT rectangular pad as test Point, square 2.5mm side length, hole diameter 1.2mm")
 		(tags "test point THT pad rectangle square")
 		(property "Reference" "TP1"
@@ -3155,6 +3182,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3167,6 +3195,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3179,6 +3208,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3282,11 +3312,11 @@
 	(footprint "xbox2sata:WURTH-ELEKTRONIK_61203921621"
 		(layer "F.Cu")
 		(uuid "5641e686-a7e9-47c8-b7e3-e6d144324c48")
-		(at 99.595 89.555 -90)
+		(at 135.27 49.155 180)
 		(descr "IDE socket")
 		(tags "IDE socket")
 		(property "Reference" "J1"
-			(at -29.105 -5.58 90)
+			(at -1.205 -3.495 0)
 			(layer "F.SilkS")
 			(uuid "cb3fd232-0df6-4575-92ea-8fae36655572")
 			(effects
@@ -3297,7 +3327,7 @@
 			)
 		)
 		(property "Value" "61203921621"
-			(at -11.7 6.31 90)
+			(at -11.7 6.31 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a5560739-659c-4821-b4d7-3048b83bf9f8")
@@ -3309,7 +3339,7 @@
 			)
 		)
 		(property "Footprint" "xbox2sata:WURTH-ELEKTRONIK_61203921621"
-			(at 0 0 -90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3317,11 +3347,12 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/61203921621.pdf"
-			(at 7 8 -90)
+			(at 7 8 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3329,11 +3360,12 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property "Description" "IDE male header"
-			(at 8.5 6 -90)
+			(at 8.5 6 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3341,11 +3373,12 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property "PARTREV" "002.000"
-			(at 0 0 -90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3358,7 +3391,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 0 0 -90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3371,7 +3404,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "61203921621"
-			(at 0 0 -90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3384,7 +3417,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "9.25mm"
-			(at 0 0 -90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3397,7 +3430,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Wurth Elektronik"
-			(at 0 0 -90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3414,16 +3447,6 @@
 		(sheetfile "xbox2sata.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -29.23 4.425)
-			(end -29.23 -4.425)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "21bd9bef-7805-4f81-acda-9f3e74a0ba62")
-		)
-		(fp_line
 			(start 29.23 4.425)
 			(end -29.23 4.425)
 			(stroke
@@ -3434,16 +3457,6 @@
 			(uuid "fe355087-118e-4d6e-a782-6a4894d3b14f")
 		)
 		(fp_line
-			(start -29.23 -4.425)
-			(end 29.23 -4.425)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0eec59fd-e0cf-4b66-87b6-644a3c55a05e")
-		)
-		(fp_line
 			(start 29.23 -4.425)
 			(end 29.23 4.425)
 			(stroke
@@ -3452,6 +3465,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "a085b364-3196-4070-ad01-05169ed404c1")
+		)
+		(fp_line
+			(start -29.23 4.425)
+			(end -29.23 -4.425)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "21bd9bef-7805-4f81-acda-9f3e74a0ba62")
+		)
+		(fp_line
+			(start -29.23 -4.425)
+			(end 29.23 -4.425)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0eec59fd-e0cf-4b66-87b6-644a3c55a05e")
 		)
 		(fp_circle
 			(center -25 4.9)
@@ -3465,16 +3498,6 @@
 			(uuid "a83083ca-fd2d-4d7e-abd5-b997986bf42c")
 		)
 		(fp_line
-			(start -29.48 4.675)
-			(end 29.48 4.675)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d7a916d4-e275-4b09-92be-cbf2bf7a8ab0")
-		)
-		(fp_line
 			(start 29.48 4.675)
 			(end 29.48 -4.925)
 			(stroke
@@ -3483,16 +3506,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "631c3d59-a617-4b31-9d48-71720412b403")
-		)
-		(fp_line
-			(start -29.48 -4.925)
-			(end -29.48 4.675)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "be9372a5-dc0d-4944-bebc-b9175f84d1c7")
 		)
 		(fp_line
 			(start 29.48 -4.925)
@@ -3505,14 +3518,24 @@
 			(uuid "b5240eba-6e6d-4d3a-aa98-a7cc43a4eab8")
 		)
 		(fp_line
-			(start -29.23 4.425)
-			(end -29.23 -4.425)
+			(start -29.48 4.675)
+			(end 29.48 4.675)
 			(stroke
-				(width 0.127)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "07c9343d-9171-40fa-ac59-7e0f15a33e6f")
+			(layer "F.CrtYd")
+			(uuid "d7a916d4-e275-4b09-92be-cbf2bf7a8ab0")
+		)
+		(fp_line
+			(start -29.48 -4.925)
+			(end -29.48 4.675)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "be9372a5-dc0d-4944-bebc-b9175f84d1c7")
 		)
 		(fp_line
 			(start 29.23 4.425)
@@ -3525,16 +3548,6 @@
 			(uuid "24030c99-bf48-4143-8c5b-bd7e9025ac60")
 		)
 		(fp_line
-			(start -29.23 -4.425)
-			(end 29.23 -4.425)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "221494b7-e4c8-441f-96ee-cce8453c9dee")
-		)
-		(fp_line
 			(start 29.23 -4.425)
 			(end 29.23 4.425)
 			(stroke
@@ -3543,6 +3556,26 @@
 			)
 			(layer "F.Fab")
 			(uuid "407c6e74-5220-41c4-95d6-6c8521b17c21")
+		)
+		(fp_line
+			(start -29.23 4.425)
+			(end -29.23 -4.425)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "07c9343d-9171-40fa-ac59-7e0f15a33e6f")
+		)
+		(fp_line
+			(start -29.23 -4.425)
+			(end 29.23 -4.425)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "221494b7-e4c8-441f-96ee-cce8453c9dee")
 		)
 		(fp_circle
 			(center -25 4.9)
@@ -3556,7 +3589,7 @@
 			(uuid "1ef2f9fd-40de-4daa-bddd-808e76356e60")
 		)
 		(pad "1" thru_hole rect
-			(at -24.13 1.27 270)
+			(at -24.13 1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3568,7 +3601,7 @@
 			(uuid "c13538fb-9754-4656-bd86-acc48bbe3028")
 		)
 		(pad "2" thru_hole circle
-			(at -24.13 -1.27 270)
+			(at -24.13 -1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3580,7 +3613,7 @@
 			(uuid "0b30d9a7-c112-4473-9ad8-27180d6239e9")
 		)
 		(pad "3" thru_hole circle
-			(at -21.59 1.27 270)
+			(at -21.59 1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3592,7 +3625,7 @@
 			(uuid "4d4e6ea7-bab3-4e0c-a09f-1f1658979656")
 		)
 		(pad "4" thru_hole circle
-			(at -21.59 -1.27 270)
+			(at -21.59 -1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3604,7 +3637,7 @@
 			(uuid "11162ace-3576-489f-a8ae-764b958e34b5")
 		)
 		(pad "5" thru_hole circle
-			(at -19.05 1.27 270)
+			(at -19.05 1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3616,7 +3649,7 @@
 			(uuid "cebb779d-2d69-4ecd-818e-35a11f39228b")
 		)
 		(pad "6" thru_hole circle
-			(at -19.05 -1.27 270)
+			(at -19.05 -1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3628,7 +3661,7 @@
 			(uuid "7024ed70-6275-4345-9235-31a543d96366")
 		)
 		(pad "7" thru_hole circle
-			(at -16.51 1.27 270)
+			(at -16.51 1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3640,7 +3673,7 @@
 			(uuid "d1d8761d-d3e1-4fff-8cbd-74dca4b8689f")
 		)
 		(pad "8" thru_hole circle
-			(at -16.51 -1.27 270)
+			(at -16.51 -1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3652,7 +3685,7 @@
 			(uuid "7b931e12-59ff-4a14-9bbd-91cb9430952c")
 		)
 		(pad "9" thru_hole circle
-			(at -13.97 1.27 270)
+			(at -13.97 1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3664,7 +3697,7 @@
 			(uuid "e7509d59-f75b-4095-af03-9b0db29a8e8e")
 		)
 		(pad "10" thru_hole circle
-			(at -13.97 -1.27 270)
+			(at -13.97 -1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3676,7 +3709,7 @@
 			(uuid "4c4fb359-b02c-41e4-bf23-8ebe0f7c23ab")
 		)
 		(pad "11" thru_hole circle
-			(at -11.43 1.27 270)
+			(at -11.43 1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3688,7 +3721,7 @@
 			(uuid "2a778a6a-af96-4a5f-a5cf-20a7fc6ef6b0")
 		)
 		(pad "12" thru_hole circle
-			(at -11.43 -1.27 270)
+			(at -11.43 -1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3700,7 +3733,7 @@
 			(uuid "8aafd056-b2eb-44ea-bbaa-d2859b2b4902")
 		)
 		(pad "13" thru_hole circle
-			(at -8.89 1.27 270)
+			(at -8.89 1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3712,7 +3745,7 @@
 			(uuid "5213e1c2-49b6-4173-b214-9ca24939c1e6")
 		)
 		(pad "14" thru_hole circle
-			(at -8.89 -1.27 270)
+			(at -8.89 -1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3724,7 +3757,7 @@
 			(uuid "8c1b8caa-95f2-4aae-bce7-2bdbdbeb9d0f")
 		)
 		(pad "15" thru_hole circle
-			(at -6.35 1.27 270)
+			(at -6.35 1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3736,7 +3769,7 @@
 			(uuid "d70855d7-5031-4470-a4c8-58f80cacddbf")
 		)
 		(pad "16" thru_hole circle
-			(at -6.35 -1.27 270)
+			(at -6.35 -1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3748,7 +3781,7 @@
 			(uuid "3aeb094d-2bfe-4d3e-b6bc-5ef0ce4b57a8")
 		)
 		(pad "17" thru_hole circle
-			(at -3.81 1.27 270)
+			(at -3.81 1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3760,7 +3793,7 @@
 			(uuid "7823bbea-fbf2-465e-85dc-5c4b89e49943")
 		)
 		(pad "18" thru_hole circle
-			(at -3.81 -1.27 270)
+			(at -3.81 -1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3772,7 +3805,7 @@
 			(uuid "3d5e5948-3efb-4b9b-a414-a7bf812d5fff")
 		)
 		(pad "19" thru_hole circle
-			(at -1.27 1.27 270)
+			(at -1.27 1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3784,7 +3817,7 @@
 			(uuid "ca17013d-b3bb-4262-8d9b-cd876b4a6a15")
 		)
 		(pad "21" thru_hole circle
-			(at 1.27 1.27 270)
+			(at 1.27 1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3796,7 +3829,7 @@
 			(uuid "f4b0aeee-25b4-4f84-a0ec-f7ebf9d8d316")
 		)
 		(pad "22" thru_hole circle
-			(at 1.27 -1.27 270)
+			(at 1.27 -1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3808,7 +3841,7 @@
 			(uuid "49a2c60a-731e-428d-a8b1-26d2beee8076")
 		)
 		(pad "23" thru_hole circle
-			(at 3.81 1.27 270)
+			(at 3.81 1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3820,7 +3853,7 @@
 			(uuid "60dfa1c5-6dab-45c4-ac91-5f37f7386c46")
 		)
 		(pad "24" thru_hole circle
-			(at 3.81 -1.27 270)
+			(at 3.81 -1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3832,7 +3865,7 @@
 			(uuid "34585989-362b-46a3-abed-5dffeafa61f4")
 		)
 		(pad "25" thru_hole circle
-			(at 6.35 1.27 270)
+			(at 6.35 1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3844,7 +3877,7 @@
 			(uuid "5d95ecb3-2e9d-4c94-8f10-2bd8e7183a62")
 		)
 		(pad "26" thru_hole circle
-			(at 6.35 -1.27 270)
+			(at 6.35 -1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3856,7 +3889,7 @@
 			(uuid "f5cb6fd8-1ce0-41c3-a9ec-de708b06e1d0")
 		)
 		(pad "27" thru_hole circle
-			(at 8.89 1.27 270)
+			(at 8.89 1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3868,7 +3901,7 @@
 			(uuid "7f6f950d-6374-412a-9527-8c3360dbbe8a")
 		)
 		(pad "28" thru_hole circle
-			(at 8.89 -1.27 270)
+			(at 8.89 -1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3880,7 +3913,7 @@
 			(uuid "4b656fab-1c06-4dad-9302-37d2d4087cd8")
 		)
 		(pad "29" thru_hole circle
-			(at 11.43 1.27 270)
+			(at 11.43 1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3892,7 +3925,7 @@
 			(uuid "21a7e4da-6f12-43d6-a652-203e82ceca65")
 		)
 		(pad "30" thru_hole circle
-			(at 11.43 -1.27 270)
+			(at 11.43 -1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3904,7 +3937,7 @@
 			(uuid "0571f2b2-2820-4a31-bed8-a330cf2b7d4c")
 		)
 		(pad "31" thru_hole circle
-			(at 13.97 1.27 270)
+			(at 13.97 1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3916,7 +3949,7 @@
 			(uuid "c22411b0-f757-461a-bc94-72aba0ce9e8a")
 		)
 		(pad "32" thru_hole circle
-			(at 13.97 -1.27 270)
+			(at 13.97 -1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3928,7 +3961,7 @@
 			(uuid "551f328b-c6ba-498c-b637-5c37c0cd5d81")
 		)
 		(pad "33" thru_hole circle
-			(at 16.51 1.27 270)
+			(at 16.51 1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3940,7 +3973,7 @@
 			(uuid "622fa6bc-74cd-446c-8244-06bb583d01b5")
 		)
 		(pad "34" thru_hole circle
-			(at 16.51 -1.27 270)
+			(at 16.51 -1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3952,7 +3985,7 @@
 			(uuid "0d8075f3-7f2b-4c57-9ca4-3df387854990")
 		)
 		(pad "35" thru_hole circle
-			(at 19.05 1.27 270)
+			(at 19.05 1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3964,7 +3997,7 @@
 			(uuid "b1dfec97-291f-4f3a-9228-4f9e3867f93f")
 		)
 		(pad "36" thru_hole circle
-			(at 19.05 -1.27 270)
+			(at 19.05 -1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3976,7 +4009,7 @@
 			(uuid "859eea5d-6820-402e-98eb-4e73b56db87f")
 		)
 		(pad "37" thru_hole circle
-			(at 21.59 1.27 270)
+			(at 21.59 1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -3988,7 +4021,7 @@
 			(uuid "49926b22-7a2b-46d8-a79b-90dea785a682")
 		)
 		(pad "38" thru_hole circle
-			(at 21.59 -1.27 270)
+			(at 21.59 -1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -4000,7 +4033,7 @@
 			(uuid "78a94f41-4d70-4bf4-8221-818d00a4be92")
 		)
 		(pad "39" thru_hole circle
-			(at 24.13 1.27 270)
+			(at 24.13 1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -4012,7 +4045,7 @@
 			(uuid "bb01d5bf-1366-4722-9912-f5140cf8d77b")
 		)
 		(pad "40" thru_hole circle
-			(at 24.13 -1.27 270)
+			(at 24.13 -1.27 180)
 			(size 1.875 1.875)
 			(drill 1.25)
 			(layers "*.Cu" "*.Mask")
@@ -4038,7 +4071,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "56a150ad-0af9-44ae-8923-d345f721043b")
-		(at 107.7425 66.75 180)
+		(at 118.0775 60.85 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R14"
@@ -4073,6 +4106,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4085,6 +4119,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4097,6 +4132,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4249,11 +4285,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5ca2c96e-b278-44ad-9f52-b304d70a7264")
-		(at 121.1075 69.75)
+		(at 131.4425 63.85)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C5"
-			(at 1.7675 -0.025 360)
+			(at 1.7675 -0.025 0)
 			(layer "F.SilkS")
 			(uuid "6acb2499-86f5-4934-a181-0cb1f1eeb239")
 			(effects
@@ -4264,7 +4300,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f0ca7b8a-2e76-451b-be7e-5b4c32624df4")
@@ -4284,6 +4320,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4296,6 +4333,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4308,6 +4346,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4417,7 +4456,7 @@
 			(uuid "e6ca53d8-5c3c-4a87-8bc2-38f51de18f93")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7ed120ad-937f-4934-87b4-861115626e5a")
 			(effects
@@ -4460,7 +4499,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "6172724c-46a3-4c65-bef9-8c9a5a5684f0")
-		(at 107.7225 69.9 180)
+		(at 118.0575 64 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R11"
@@ -4495,6 +4534,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4507,6 +4547,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4519,6 +4560,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4671,11 +4713,11 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "66995d35-3176-4130-aaee-ed08dd17d259")
-		(at 112.5 76.4275 90)
+		(at 122.835 70.5275 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R16"
-			(at -1.9725 -0.05 270)
+			(at -1.9725 -0.05 -90)
 			(layer "F.SilkS")
 			(uuid "d960b57a-2c36-48a1-bee4-d6d9d43d18fd")
 			(effects
@@ -4686,7 +4728,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "19dea9d0-eda8-4a61-995b-b5eab93e55d4")
@@ -4706,6 +4748,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4718,6 +4761,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4730,6 +4774,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4839,7 +4884,7 @@
 			(uuid "88076f76-b4c7-473c-b610-d397bd08d061")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "73b9fe70-b4dd-4b3f-b7e0-14126026c11a")
 			(effects
@@ -4882,7 +4927,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "6a4c4ae6-5975-499e-a53d-bd5a80fd840e")
-		(at 118.8575 106.425 180)
+		(at 127.7325 98.85 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C17"
@@ -4917,6 +4962,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4929,6 +4975,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4941,6 +4988,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5093,7 +5141,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "6e2c08fa-b3ad-4642-8bb6-176ac03ee510")
-		(at 114.875 76.4325 -90)
+		(at 125.21 70.5325 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
@@ -5128,6 +5176,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5140,6 +5189,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5152,6 +5202,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5293,11 +5344,11 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "746517da-b12a-4079-a6f0-3ab8d38423fa")
-		(at 123.405 74.475)
+		(at 133.74 68.575)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "C10"
-			(at -2.0475 -0.1 360)
+			(at -2.0475 -0.1 0)
 			(layer "F.SilkS")
 			(uuid "848be500-5a2e-410e-b0b2-5428c5d5a4c7")
 			(effects
@@ -5308,7 +5359,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d3062bfb-eeff-43e7-950b-d476a85f6f9f")
@@ -5328,6 +5379,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5340,6 +5392,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5352,6 +5405,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5461,7 +5515,7 @@
 			(uuid "73ea9709-5d35-4d43-8e1e-06f64f9652ec")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a263c72f-1505-48ef-96f2-9534facc734c")
 			(effects
@@ -5504,7 +5558,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "759166a8-027c-42cd-9623-f1cf9852359b")
-		(at 106.2825 90.9)
+		(at 116.6175 85)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
@@ -5519,7 +5573,7 @@
 			)
 		)
 		(property "Value" "5.6K"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9bd49bd4-0acc-449c-9fa4-5d71505bf050")
@@ -5539,6 +5593,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5551,6 +5606,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5563,6 +5619,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5672,7 +5729,7 @@
 			(uuid "5bb89e9a-5de8-4835-ae9e-6fe8be34cde8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a6751908-b6d6-47d9-b81d-64e1a7245e7c")
 			(effects
@@ -5715,7 +5772,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "7cb7f354-b57d-4d9c-9403-b9b5977ac46b")
-		(at 118.8575 111.425)
+		(at 127.7325 103.85)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C14"
@@ -5750,6 +5807,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5762,6 +5820,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5774,6 +5833,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5926,11 +5986,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "7eccd2c9-e5ad-440e-b089-1632e2caa04e")
-		(at 118.495 81.0925 90)
+		(at 128.83 75.1925 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C9"
-			(at -0.6575 -0.9 270)
+			(at -0.6575 -0.9 -90)
 			(layer "F.SilkS")
 			(uuid "669eed0e-f3da-4cb9-9b2e-f629ea9df5b7")
 			(effects
@@ -5941,7 +6001,7 @@
 			)
 		)
 		(property "Value" "18pF"
-			(at 0 1.16 270)
+			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "63f8faf4-a124-4068-923f-baff45b65e49")
@@ -5961,6 +6021,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5973,6 +6034,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5985,6 +6047,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6094,7 +6157,7 @@
 			(uuid "8d6dba41-715c-48a5-8054-62d8f8a1f6b2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "081941ca-742f-4a87-a48f-98efecd49a8e")
 			(effects
@@ -6137,7 +6200,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "87320f47-e399-45c0-a731-1857cc8fa863")
-		(at 110.425 76.3225 -90)
+		(at 120.76 70.4225 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R15"
@@ -6172,6 +6235,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6184,6 +6248,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6196,6 +6261,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6348,7 +6414,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8a241437-2745-47a3-8a6e-7b22cb48aaf1")
-		(at 106.2775 101.9)
+		(at 115.1525 94.325)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
@@ -6364,7 +6430,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cb27ef5b-eea0-4a9c-a3bb-6c0fe883e04a")
@@ -6384,6 +6450,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6396,6 +6463,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6408,6 +6476,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6517,7 +6586,7 @@
 			(uuid "8a775769-dae0-491e-a771-0c04876e31f8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3e35bdb1-f277-4cbe-ab0c-543c02f416d4")
 			(effects
@@ -6560,7 +6629,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8abd3ece-1013-4205-bed6-63f24b177945")
-		(at 107.6475 65.025 180)
+		(at 117.9825 59.125 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R13"
@@ -6595,6 +6664,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6607,6 +6677,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6619,6 +6690,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6771,11 +6843,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "912ff8de-2d8d-41fb-9b32-d496a298aed1")
-		(at 116.875 62.0825 90)
+		(at 127.21 56.1825 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
-			(at 1.7075 0 270)
+			(at 1.7075 0 -90)
 			(layer "F.SilkS")
 			(uuid "5eb0327c-d21d-4469-92b9-c8c693b6c9ed")
 			(effects
@@ -6786,7 +6858,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.16 270)
+			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b5e3e630-8305-470d-a60e-084ed4b6792b")
@@ -6806,6 +6878,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6818,6 +6891,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6830,6 +6904,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6939,7 +7014,7 @@
 			(uuid "ec0155fd-8c48-49bf-8904-a2d4bb6f4da0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "cb9c86ca-57f2-4401-b342-7c1536559d93")
 			(effects
@@ -6982,7 +7057,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "91b717d3-cff1-4c3b-9418-ec1ea0f34c7a")
-		(at 115.975 76.4475 -90)
+		(at 126.31 70.5475 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
@@ -7017,6 +7092,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7029,6 +7105,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7041,6 +7118,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7182,11 +7260,11 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "92ee1ec8-cc6a-4cb3-83f4-2836a1a13d1f")
-		(at 106.2775 106.4 180)
+		(at 115.1525 98.825 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
-			(at -1.5975 0 270)
+			(at -1.5975 0 -90)
 			(layer "F.SilkS")
 			(uuid "41ef4221-ff71-4d10-be45-e13b976aefae")
 			(effects
@@ -7217,6 +7295,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7229,6 +7308,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7241,6 +7321,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7393,7 +7474,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "9ff15c8f-11f7-49e2-baa6-e86c2ffce89d")
-		(at 106.2775 98.4)
+		(at 115.1525 90.825)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
@@ -7408,7 +7489,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bc47145c-7a14-4980-95ec-dc9c4638acef")
@@ -7428,6 +7509,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7440,6 +7522,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7452,6 +7535,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7561,7 +7645,7 @@
 			(uuid "b8db6c65-4b46-4549-8e3f-b3bd1a9cfa67")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "5427cf02-d01b-402b-9009-e56acc019f1a")
 			(effects
@@ -7604,7 +7688,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a11e0fa4-3fb9-4657-86a2-5eba10469a1e")
-		(at 118.8575 107.675 180)
+		(at 127.7325 100.1 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C16"
@@ -7639,6 +7723,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7651,6 +7736,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7663,6 +7749,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7815,11 +7902,11 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "abd0d91d-269a-4a20-a2cd-5f3e2d01bf1b")
-		(at 121.0725 71.725)
+		(at 131.4075 65.825)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R18"
-			(at 2.0025 0 360)
+			(at 2.0025 0 0)
 			(layer "F.SilkS")
 			(uuid "cf0a5413-e70a-4368-a51e-85745d76e825")
 			(effects
@@ -7830,7 +7917,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "49e9618f-dcb4-4c6e-9094-b089be373bdd")
@@ -7850,6 +7937,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7862,6 +7950,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7874,6 +7963,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7983,7 +8073,7 @@
 			(uuid "7cb2b94c-228c-4944-b790-688150fc4369")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b38a6aaa-5367-4cfe-80ba-cfc3e99da514")
 			(effects
@@ -8026,7 +8116,7 @@
 	(footprint "xbox2sata:SOT230P700X180-4N"
 		(layer "F.Cu")
 		(uuid "b1387063-e468-42cf-ba4a-beb58bafbfda")
-		(at 112.99 108.425 90)
+		(at 121.865 100.85 90)
 		(descr "TLV1117LV12DCYR")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC1"
@@ -8041,7 +8131,7 @@
 			)
 		)
 		(property "Value" "TLV1117LV12DCYR"
-			(at -0.5 5.5 270)
+			(at -0.5 5.5 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9fb2e61e-cb41-4540-adff-e5eb281d9409")
@@ -8061,6 +8151,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8073,6 +8164,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8085,6 +8177,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8348,7 +8441,7 @@
 	(footprint "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
 		(layer "F.Cu")
 		(uuid "b40fd9f7-0b7b-43cc-8811-aebe378058ec")
-		(at 115.24 117.025)
+		(at 124.115 109.45)
 		(descr "THT rectangular pad as test Point, square 2.5mm side length, hole diameter 1.2mm")
 		(tags "test point THT pad rectangle square")
 		(property "Reference" "TP2"
@@ -8384,6 +8477,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8396,6 +8490,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8408,6 +8503,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8511,7 +8607,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b8588636-2eb4-4ebd-9cc6-12dc79014898")
-		(at 114.415 113.725 180)
+		(at 123.29 106.15 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C7"
@@ -8546,6 +8642,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8558,6 +8655,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8570,6 +8668,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8735,7 +8834,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d15f1f40-cbfb-466e-9c39-eb3560efa3f0")
-		(at 113.8775 103.225)
+		(at 122.7525 95.65)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C6"
@@ -8771,6 +8870,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8783,6 +8883,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8795,6 +8896,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8960,7 +9062,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d1da4690-0e02-412e-8f1c-9af4d8e23044")
-		(at 123.43 73.325)
+		(at 133.765 67.425)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "C11"
@@ -8995,6 +9097,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9007,6 +9110,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9019,6 +9123,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9171,11 +9276,11 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d446a226-ce0b-4258-a872-aa889ccb4ef9")
-		(at 107.8225 68.325)
+		(at 118.1575 62.425)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R7"
-			(at -1.7725 -0.025 360)
+			(at -1.7725 -0.025 0)
 			(layer "F.SilkS")
 			(uuid "c0504751-d5a4-4a86-ae22-8e58caf1ff4d")
 			(effects
@@ -9186,7 +9291,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "49cb68fb-57eb-42c2-a27f-2414de4f7b1d")
@@ -9206,6 +9311,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9218,6 +9324,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9230,6 +9337,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9339,7 +9447,7 @@
 			(uuid "4aeba1d7-d6d7-4647-95ab-4a229c23a5b4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f46be63b-bccb-41db-9b05-3e7d3dc0f013")
 			(effects
@@ -9382,11 +9490,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "da2269b0-8b32-4b73-9fff-cb26a544078a")
-		(at 108.92 81.0925 90)
+		(at 119.255 75.1925 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C8"
-			(at -0.6575 -0.825 270)
+			(at -0.6575 -0.825 -90)
 			(layer "F.SilkS")
 			(uuid "df2dafe8-8575-4cdf-8636-d8ecd07d52b0")
 			(effects
@@ -9397,7 +9505,7 @@
 			)
 		)
 		(property "Value" "18pF"
-			(at 0 1.16 270)
+			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e50cd5b2-38dc-486d-8861-facfd5b3169d")
@@ -9417,6 +9525,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9429,6 +9538,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9441,6 +9551,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9550,7 +9661,7 @@
 			(uuid "85e4a61c-2ef3-46df-bbbc-239ffc5f453e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "179a251e-c50e-4dba-8012-1861b0d78543")
 			(effects
@@ -9593,11 +9704,11 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "dc848c5c-334e-4daf-902c-14587535fb7d")
-		(at 106.2775 103.4 180)
+		(at 115.1525 95.825 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
-			(at -1.5975 0 270)
+			(at -1.5975 0 -90)
 			(layer "F.SilkS")
 			(uuid "dfc4cf49-bbf7-4084-bc24-f4be3ae38e62")
 			(effects
@@ -9628,6 +9739,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9640,6 +9752,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9652,6 +9765,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9804,7 +9918,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "eaf3a594-f546-4adc-995c-229b7ab3d20d")
-		(at 118.8575 108.925 180)
+		(at 127.7325 101.35 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C15"
@@ -9839,6 +9953,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9851,6 +9966,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9863,6 +9979,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10015,7 +10132,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "eb7cb80e-7ca5-4604-85dc-90f700883187")
-		(at 123.225 66.6)
+		(at 133.56 60.7)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "C12"
@@ -10050,6 +10167,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10062,6 +10180,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10074,6 +10193,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10226,7 +10346,7 @@
 	(footprint "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ececd04a-0e8c-4542-bea0-cccc000dcc9e")
-		(at 118.8525 110.175)
+		(at 127.7275 102.6)
 		(descr "Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "inductor handsolder")
 		(property "Reference" "L1"
@@ -10261,6 +10381,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10273,6 +10394,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10285,6 +10407,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10439,7 +10562,7 @@
 	(footprint "xbox2sata:CONN_67800-8025_MOL"
 		(layer "F.Cu")
 		(uuid "f0bf49ea-fc6c-494d-966a-67f1ab89e602")
-		(at 128.1775 74.4 -90)
+		(at 160.55 67.32 -90)
 		(descr "SATA data socket")
 		(tags "67800-8025 SATA data socket")
 		(property "Reference" "J2"
@@ -10476,6 +10599,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10488,6 +10612,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10500,6 +10625,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10775,7 +10901,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "f150f3d1-b7d9-418f-9d2c-0f6d8f6e9902")
-		(at 106.2775 104.9)
+		(at 115.1525 97.325)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
@@ -10790,7 +10916,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "557d9596-df15-4cb6-b110-694787ed03b6")
@@ -10810,6 +10936,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10822,6 +10949,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10834,6 +10962,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10943,7 +11072,7 @@
 			(uuid "ba4ac1c5-2bf3-4465-afa7-afc5a0d8933d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d251375d-884b-4c68-88d1-19e9c53caed9")
 			(effects
@@ -10986,7 +11115,7 @@
 	(footprint "xbox2sata:RHDR40W70P254_2X20_5065X498X870P"
 		(layer "B.Cu")
 		(uuid "fbe2e9f8-1933-4066-8306-d79176f4b433")
-		(at 93 65.42 -90)
+		(at 109.665 62.29 -90)
 		(descr "90151-2140")
 		(tags "Connector")
 		(property "Reference" "J3"
@@ -11023,6 +11152,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -11036,6 +11166,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -11049,6 +11180,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -11700,8 +11832,8 @@
 		)
 	)
 	(gr_rect
-		(start 88.5 59.8)
-		(end 132.375 119.1)
+		(start 103.9 44.15)
+		(end 166.725 112.775)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -11711,7 +11843,7 @@
 		(uuid "8eb84720-42e4-4c42-b688-647f25affddb")
 	)
 	(gr_text "xbox GND"
-		(at 107.95 119.025 90)
+		(at 116.825 111.45 90)
 		(layer "F.SilkS")
 		(uuid "8a1388e3-287f-4de7-9aa2-13e7423ade93")
 		(effects
@@ -11724,7 +11856,7 @@
 		)
 	)
 	(gr_text "xbox2sata"
-		(at 111.475 97.175 0)
+		(at 139.725 110.875 0)
 		(layer "F.SilkS")
 		(uuid "ab2d0dfc-974e-4493-8cb5-44671954ee8d")
 		(effects
@@ -11737,7 +11869,7 @@
 		)
 	)
 	(gr_text "xbox 3V3"
-		(at 117.075 118.725 0)
+		(at 125.95 111.15 0)
 		(layer "F.SilkS")
 		(uuid "c7e5f590-ba61-44e2-bfe5-a081d7302da7")
 		(effects
@@ -11750,7 +11882,7 @@
 		)
 	)
 	(gr_text "${REFERENCE}"
-		(at 114.875 76.4325 -90)
+		(at 125.21 70.5325 -90)
 		(layer "F.Fab")
 		(uuid "657b5f6c-2732-4651-b5f7-6436943bb29e")
 		(effects
@@ -11761,7 +11893,7 @@
 		)
 	)
 	(gr_text "${REFERENCE}"
-		(at 113.725 76.4275 90)
+		(at 124.06 70.5275 90)
 		(layer "F.Fab")
 		(uuid "7b83b236-aea2-426b-b19d-9b85de14bcb9")
 		(effects
@@ -11772,7 +11904,7 @@
 		)
 	)
 	(gr_text "${REFERENCE}"
-		(at 117.025 76.4175 -90)
+		(at 127.36 70.5175 -90)
 		(layer "F.Fab")
 		(uuid "815c98a9-a168-4aba-904d-b4229135282e")
 		(effects
@@ -11783,7 +11915,7 @@
 		)
 	)
 	(gr_text "${REFERENCE}"
-		(at 115.975 76.4475 -90)
+		(at 126.31 70.5475 -90)
 		(layer "F.Fab")
 		(uuid "a93359ec-29f7-41a3-9e9a-e3c79250b280")
 		(effects
@@ -11794,88 +11926,88 @@
 		)
 	)
 	(segment
-		(start 116.875 65.0625)
-		(end 116.875 62.65)
+		(start 127.21 59.1625)
+		(end 127.21 56.75)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 33)
 		(uuid "338cd683-5727-44c3-a839-7537258bb245")
 	)
 	(segment
-		(start 115.2775 116.9875)
-		(end 115.24 117.025)
+		(start 124.1525 109.4125)
+		(end 124.115 109.45)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 33)
 		(uuid "6fe899b2-f020-4626-8b17-7cd9f8d3d7a7")
 	)
 	(segment
-		(start 115.29 111.575)
-		(end 115.29 113.7125)
+		(start 124.165 104)
+		(end 124.165 106.1375)
 		(width 0.9)
 		(layer "F.Cu")
 		(net 33)
 		(uuid "a81fa248-2e66-4146-b96e-b678b959980c")
 	)
 	(segment
-		(start 115.29 113.7125)
-		(end 115.2775 113.725)
+		(start 124.165 106.1375)
+		(end 124.1525 106.15)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 33)
 		(uuid "cf2ef048-95bc-49c1-a120-61846f677579")
 	)
 	(segment
-		(start 115.2775 113.725)
-		(end 115.2775 116.9875)
+		(start 124.1525 106.15)
+		(end 124.1525 109.4125)
 		(width 0.9)
 		(layer "F.Cu")
 		(net 33)
 		(uuid "f72f4911-5005-4147-afe2-97ad3640fff0")
 	)
 	(segment
-		(start 115.875 75.75)
-		(end 115.975 75.85)
+		(start 126.21 69.85)
+		(end 126.31 69.95)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 45)
 		(uuid "6a10def8-88e9-42e8-a606-4cc0dcb794a5")
 	)
 	(segment
-		(start 112.99 103.25)
-		(end 113.015 103.225)
+		(start 121.865 95.675)
+		(end 121.89 95.65)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 68)
 		(uuid "0c3c01cc-13ee-4462-8078-65e4bcb3a4a2")
 	)
 	(segment
-		(start 112.99 105.275)
-		(end 112.99 103.25)
+		(start 121.865 97.7)
+		(end 121.865 95.675)
 		(width 0.9)
 		(layer "F.Cu")
 		(net 68)
 		(uuid "506f31c1-e326-4011-9f39-f85ba9305ac7")
 	)
 	(segment
-		(start 114.375 65.0625)
-		(end 114.375 62.65)
+		(start 124.71 59.1625)
+		(end 124.71 56.75)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 68)
 		(uuid "ded03084-c3ff-4e62-bc2a-1b2eadfb3cae")
 	)
 	(segment
-		(start 112.99 111.575)
-		(end 112.99 105.275)
+		(start 121.865 104)
+		(end 121.865 97.7)
 		(width 0.9)
 		(layer "F.Cu")
 		(net 68)
 		(uuid "f4894b2f-281d-418d-94f9-3a956aa29f8b")
 	)
 	(segment
-		(start 119.0625 69.75)
-		(end 120.54 69.75)
+		(start 129.3975 63.85)
+		(end 130.875 63.85)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 68)
