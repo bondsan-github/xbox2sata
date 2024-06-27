@@ -1,3 +1,38 @@
+3.3 * ( 1 + 0.5 / 0 ) + i * 0.5
+
+Jumper
+======
+1 & 2 = cable select
+3 & 4 = Slave
+5 & 6 = Master
+7 & 8 = DCA
+
+pin 1 -> IDE pin 28
+pin 2 -> U5 pin 33 (T0)
+
+pin 3 -> U5 pin 33 (T0)
+pin 4 -> R10 -> GND
+
+pin 5 -> R19 -> GND
+pin 6 -> U5 pin 33 (T0)
+
+pin 7 -> R25 -> U5 pin 38
+pin 8 -> GND
+
+
+
+Voltages from version 1.4 motherboard
+=====================================
+3V3, signal name V_1P5 , connect to DB_7F1 @ top F8 ( close to radial capacitor C7E2, 1500uF 6.3v )
+
+
+Voltages from version 1.1 motherboard
+=====================================
+pdf page 33
+VCC3
+
+2V5, signal name V_2P5, DB6F1
+
 Aim
 ===
 Create a IDE to SATA bridge PCB with pass-through socket for XBox DVD cable. 
