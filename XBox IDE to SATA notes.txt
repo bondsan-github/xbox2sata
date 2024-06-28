@@ -7,19 +7,27 @@ Jumper
 5 & 6 = Master
 7 & 8 = DCA
 
-pin 1 -> IDE pin 28
 pin 2 -> U5 pin 33 (T0)
+pin 1 -> IDE pin 28
 
 pin 3 -> U5 pin 33 (T0)
 pin 4 -> R10 -> GND
 
-pin 5 -> R19 -> GND
 pin 6 -> U5 pin 33 (T0)
+pin 5 -> R19 -> GND
 
 pin 7 -> R25 -> U5 pin 38
-pin 8 -> GND
+pin 8 -> 3v3
 
-
+t0, U5 33 -> jumper 2 & 3 & 6
+t1, U5 34 -> ide pin 39
+t2, U5 35 -> r27 -> 3v3
+t3, U5 36 -> r1 -> 3v3
+t4, U5 37 -> GND
+t5, U5 38 -> r25 -> jumper 7 ( DCA ) ( floating )
+t6, U5 39 -> r24 -> 3v3
+t7, U5 40 -> r18 -> 3v3
+t8, U5 52 -> r26 -> GND
 
 Voltages from version 1.4 motherboard
 =====================================
