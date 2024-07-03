@@ -620,6 +620,142 @@
 				)
 			)
 		)
+		(symbol "xbox2sata:1V2_voltage_regulator"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1V2 voltage regulator"
+				(at -8.382 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.2V, SOT-223"
+				(at 5.588 -17.018 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "REGULATOR LDO 1.2V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1V2_voltage_regulator_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "1V2_voltage_regulator_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "xbox2sata:61203921621"
 			(pin_names
 				(offset 1.016)
@@ -5565,193 +5701,6 @@
 				)
 			)
 		)
-		(symbol "xbox2sata:TLV1117LV12DCYR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 5.08 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "TLV1117LV12DCYR"
-				(at 4.826 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "xbox2sata:SOT230P700X180-4N"
-				(at 34.29 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/tlv1117lv"
-				(at 34.29 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "1-A, Positive Fixed Voltage, Low-Dropout Regulator"
-				(at 19.304 -9.906 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.8"
-				(at 34.29 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-TLV1117LV12DCYR"
-				(at 34.29 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV1117LV12DCYR?qs=tEz3BkPb1rwxzqN6qfNd0Q%3D%3D"
-				(at 34.29 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 34.29 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TLV1117LV12DCYR"
-				(at 34.29 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "TLV1117LV12DCYR_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 33.02 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "OUTPUT_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "INPUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 0 180)
-					(length 5.08)
-					(name "OUTPUT_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 166.37 245.11)
@@ -5772,12 +5721,6 @@
 		(uuid "1bdee040-b925-4734-9fee-94dcfb9ffb97")
 	)
 	(junction
-		(at 139.7 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d8f9015-101c-4072-8891-98d6b9a93456")
-	)
-	(junction
 		(at 276.86 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5790,12 +5733,6 @@
 		(uuid "25214fee-3904-4c5f-b813-d1fb44ae2a6f")
 	)
 	(junction
-		(at 139.7 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29462981-f2b2-4d78-b993-15083c835bed")
-	)
-	(junction
 		(at 166.37 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5806,12 +5743,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "423b1b34-b652-4bbb-a516-9cb9104b98ba")
-	)
-	(junction
-		(at 153.67 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "470bc0fa-8749-45c3-99c0-8eb204e6b9f2")
 	)
 	(junction
 		(at 248.92 208.28)
@@ -5880,12 +5811,6 @@
 		(uuid "cd6ffa75-8237-4bae-bb75-2b17c5566a3a")
 	)
 	(junction
-		(at 153.67 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2c57aa6-e00f-4833-bea4-6d7e4072b9dd")
-	)
-	(junction
 		(at 133.35 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5896,12 +5821,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebe9cd97-5ff0-4ee3-8929-5308ab01055b")
-	)
-	(junction
-		(at 162.56 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec7c6701-98d3-4801-bd05-7e955f37cdda")
 	)
 	(junction
 		(at 180.34 254)
@@ -6011,16 +5930,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 36.83) (xy 167.64 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1237ef60-4d4c-4631-be9f-85e08a1439dc")
-	)
-	(wire
-		(pts
 			(xy 381 93.98) (xy 383.54 93.98)
 		)
 		(stroke
@@ -6051,16 +5960,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 36.83) (xy 139.7 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "163fbc10-056d-418e-a04c-ae8f54ebc0ff")
-	)
-	(wire
-		(pts
 			(xy 143.51 234.95) (xy 148.59 234.95)
 		)
 		(stroke
@@ -6088,16 +5987,6 @@
 			(type default)
 		)
 		(uuid "1bd43d61-c3de-48cd-80dd-2784d8f6908b")
-	)
-	(wire
-		(pts
-			(xy 139.7 36.83) (xy 153.67 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c7f0777-80d2-4af0-b688-858735b93edc")
 	)
 	(wire
 		(pts
@@ -6191,16 +6080,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 39.37) (xy 144.78 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2510cf5a-c248-4922-9fb4-936a96989622")
-	)
-	(wire
-		(pts
 			(xy 195.58 147.32) (xy 195.58 146.05)
 		)
 		(stroke
@@ -6231,26 +6110,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 24.13) (xy 139.7 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "281ae893-cb94-413c-a383-9046bb3efe27")
-	)
-	(wire
-		(pts
-			(xy 153.67 36.83) (xy 153.67 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28b74307-c86a-4a16-8b4e-5b550e518f97")
-	)
-	(wire
-		(pts
 			(xy 133.35 134.62) (xy 156.21 134.62)
 		)
 		(stroke
@@ -6258,16 +6117,6 @@
 			(type default)
 		)
 		(uuid "299b611f-a0e8-4efb-a7cd-64b85c7202e3")
-	)
-	(wire
-		(pts
-			(xy 139.7 34.29) (xy 142.24 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ca24f6d-e3ac-4e33-b72e-d5fa01911880")
 	)
 	(wire
 		(pts
@@ -6481,16 +6330,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 33.02) (xy 139.7 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a8f650d-073d-421f-9db2-8a93d75652f0")
-	)
-	(wire
-		(pts
 			(xy 358.14 160.02) (xy 358.14 151.13)
 		)
 		(stroke
@@ -6531,16 +6370,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 44.45) (xy 162.56 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61d25d4d-aaad-4695-8ebd-c08c3da0cb4f")
-	)
-	(wire
-		(pts
 			(xy 137.16 142.24) (xy 156.21 142.24)
 		)
 		(stroke
@@ -6558,16 +6387,6 @@
 			(type default)
 		)
 		(uuid "6874ead0-ca44-49f7-8008-d69f932831cf")
-	)
-	(wire
-		(pts
-			(xy 153.67 49.53) (xy 153.67 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "730adf7a-04f3-4f28-a39d-ab629d6aadd6")
 	)
 	(wire
 		(pts
@@ -6671,16 +6490,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 54.61) (xy 162.56 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87545305-4eea-4fd3-af70-ebcb84675415")
-	)
-	(wire
-		(pts
 			(xy 298.45 74.93) (xy 298.45 77.47)
 		)
 		(stroke
@@ -6771,16 +6580,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 55.88) (xy 153.67 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fa93f05-4768-408b-a357-c630e53d9217")
-	)
-	(wire
-		(pts
 			(xy 238.76 34.29) (xy 228.6 34.29)
 		)
 		(stroke
@@ -6788,26 +6587,6 @@
 			(type default)
 		)
 		(uuid "937f2188-3012-4082-bae5-e6d48cb46add")
-	)
-	(wire
-		(pts
-			(xy 97.79 44.45) (xy 139.7 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95dfc263-2010-4d66-9c50-8774ba2e7a18")
-	)
-	(wire
-		(pts
-			(xy 99.06 39.37) (xy 97.79 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96450202-6a7b-4a2a-9390-3adbc61ac52f")
 	)
 	(wire
 		(pts
@@ -6931,16 +6710,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 44.45) (xy 139.7 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4f77119-2adf-4119-b859-f72aff2f5856")
-	)
-	(wire
-		(pts
 			(xy 228.6 36.83) (xy 228.6 34.29)
 		)
 		(stroke
@@ -6978,26 +6747,6 @@
 			(type default)
 		)
 		(uuid "a8010f28-56af-4d39-b14e-26f807bb14aa")
-	)
-	(wire
-		(pts
-			(xy 137.16 39.37) (xy 144.78 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8389816-7132-4f43-9ba2-4ab1d06f5ec4")
-	)
-	(wire
-		(pts
-			(xy 162.56 55.88) (xy 153.67 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9a4e46c-b99b-48cb-a65f-f74abb79adb0")
 	)
 	(wire
 		(pts
@@ -7151,16 +6900,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 34.29) (xy 139.7 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5c0cea9-c747-4608-b10d-0ce4f2d4b042")
-	)
-	(wire
-		(pts
 			(xy 163.83 232.41) (xy 168.91 232.41)
 		)
 		(stroke
@@ -7178,16 +6917,6 @@
 			(type default)
 		)
 		(uuid "cfcf1ce5-e266-4018-b4de-cd714bb6c44e")
-	)
-	(wire
-		(pts
-			(xy 144.78 54.61) (xy 144.78 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfd80ad8-2811-4611-84e0-d094d3d222f8")
 	)
 	(wire
 		(pts
@@ -7261,16 +6990,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 39.37) (xy 97.79 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6d79b92-e34a-4288-8c03-29378913e31b")
-	)
-	(wire
-		(pts
 			(xy 364.49 63.5) (xy 364.49 67.31)
 		)
 		(stroke
@@ -7278,16 +6997,6 @@
 			(type default)
 		)
 		(uuid "d7082f01-86e3-410f-b805-07588b3fa04f")
-	)
-	(wire
-		(pts
-			(xy 153.67 36.83) (xy 162.56 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dabfdd5c-f4da-49a2-a9d5-66f2675cb05f")
 	)
 	(wire
 		(pts
@@ -7623,18 +7332,6 @@
 			(justify left)
 		)
 		(uuid "cffe8026-97fb-4629-8bbd-2c43ca18267f")
-	)
-	(text "Please measure original L1 or suggest a value.\nI am unfamiliar with this power filter circtuit,\nis it OK?"
-		(exclude_from_sim no)
-		(at 196.088 26.416 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "d0e4f6cb-e10d-44b0-86ba-5de41be0e0b7")
 	)
 	(global_label "VAA"
 		(shape input)
@@ -8320,7 +8017,7 @@
 	)
 	(global_label "1V2"
 		(shape output)
-		(at 167.64 36.83 0)
+		(at 132.08 20.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8330,7 +8027,7 @@
 		)
 		(uuid "29cb41e4-8ea6-4c8c-ac7c-ed44d9d2319c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.1328 36.83 0)
+			(at 138.5728 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10124,22 +9821,22 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 142.24 34.29 0)
+		(at 97.79 20.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a1c879fe-21a3-4842-965e-f9f6d84a6c1a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.7328 34.29 0)
+			(at 91.2972 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11902,7 +11599,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 153.67 45.72 0)
+		(at 127 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11910,7 +11607,7 @@
 		(dnp no)
 		(uuid "0f378280-6a05-4b20-abe2-51a9417d7ed6")
 		(property "Reference" "C18"
-			(at 149.606 43.688 0)
+			(at 122.936 24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11919,7 +11616,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 154.178 47.752 0)
+			(at 127.508 28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11928,7 +11625,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 154.6352 49.53 0)
+			(at 127.9652 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11937,7 +11634,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
-			(at 153.67 45.72 0)
+			(at 127 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11946,7 +11643,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 153.67 45.72 0)
+			(at 127 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11955,7 +11652,7 @@
 			)
 		)
 		(property "Mfr. No:" "C1608X7R1A105K080AC"
-			(at 153.67 45.72 0)
+			(at 127 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13473,211 +13170,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 153.67 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c429d6d-4010-4597-b635-8bacf1faa218")
-		(property "Reference" "#PWR06"
-			(at 153.67 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 153.67 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23785686-0659-41c3-b5fe-6e2a299ef38f")
-		)
-		(instances
-			(project "xbox2sata"
-				(path "/29cbf96f-e8a1-446a-9b4f-b577bf6e6f05"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 162.56 50.8 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4cf731e4-6165-4364-89f6-b20af3bca374")
-		(property "Reference" "R6"
-			(at 163.576 49.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.5"
-			(at 163.576 52.578 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.782 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 162.56 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dfc5cf94-cc77-422b-bdd7-c441a43bd5c1")
-		)
-		(pin "2"
-			(uuid "30d55048-e484-4e98-bbff-3fba1584ad76")
-		)
-		(instances
-			(project ""
-				(path "/29cbf96f-e8a1-446a-9b4f-b577bf6e6f05"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 162.56 40.64 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51bce8e4-9c47-4f21-8074-6b7f3cf4c6f9")
-		(property "Reference" "C8"
-			(at 159.766 38.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uf"
-			(at 162.56 42.672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.5252 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 162.56 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a560d659-686c-4b22-9e49-c13b38be7405")
-		)
-		(pin "1"
-			(uuid "6ffa2e77-e4c7-41ef-910f-bd8527f7c3a5")
-		)
-		(instances
-			(project ""
-				(path "/29cbf96f-e8a1-446a-9b4f-b577bf6e6f05"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 255.27 196.85 270)
 		(unit 1)
@@ -13811,8 +13303,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 24.13 0)
-		(mirror x)
+		(at 114.3 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13820,7 +13311,7 @@
 		(dnp no)
 		(uuid "6fde9844-8a53-4a4e-99fd-e209219ffb44")
 		(property "Reference" "#PWR07"
-			(at 139.7 17.78 0)
+			(at 114.3 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13829,7 +13320,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 20.574 0)
+			(at 114.3 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13837,7 +13328,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 24.13 0)
+			(at 114.3 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13846,7 +13337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 24.13 0)
+			(at 114.3 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13855,7 +13346,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 24.13 0)
+			(at 114.3 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13870,6 +13361,77 @@
 			(project "xbox2sata"
 				(path "/29cbf96f-e8a1-446a-9b4f-b577bf6e6f05"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "xbox2sata:1V2_voltage_regulator")
+		(at 114.3 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74295628-abc2-4b83-bdf5-e373b4f33b92")
+		(property "Reference" "U1"
+			(at 114.3 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1V2 voltage regulator"
+			(at 114.3 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 114.3 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.2V, SOT-223"
+			(at 119.888 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9cceda3-baa9-4b17-aa2c-b6db0f8f9558")
+		)
+		(pin "1"
+			(uuid "636786d1-e388-4a5d-b493-02701a515f14")
+		)
+		(pin "3"
+			(uuid "22bec05f-ff80-4082-bfda-23f0a6f5d9bd")
+		)
+		(instances
+			(project ""
+				(path "/29cbf96f-e8a1-446a-9b4f-b577bf6e6f05"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -13951,15 +13513,15 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d95b2f0-170d-4c23-9161-5ac84579a83a")
-		(property "Reference" "L1"
-			(at 209.55 32.512 90)
+		(property "Reference" "FB1"
+			(at 212.09 32.512 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "60"
 			(at 212.09 35.814 90)
 			(effects
 				(font
@@ -14003,7 +13565,7 @@
 		(instances
 			(project "xbox2sata"
 				(path "/29cbf96f-e8a1-446a-9b4f-b577bf6e6f05"
-					(reference "L1")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -14298,131 +13860,6 @@
 			(project "xbox2sata"
 				(path "/29cbf96f-e8a1-446a-9b4f-b577bf6e6f05"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "xbox2sata:TLV1117LV12DCYR")
-		(at 137.16 39.37 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "80750e49-9e36-4204-a561-233518945b1d")
-		(property "Reference" "IC1"
-			(at 130.302 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV1117LV12DCYR"
-			(at 118.11 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "xbox2sata:SOT230P700X180-4N"
-			(at 102.87 -55.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/tlv1117lv"
-			(at 102.87 -155.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "1V2, 1A regulator"
-			(at 118.364 29.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.8"
-			(at 102.87 -355.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TLV1117LV12DCYR"
-			(at 102.87 -455.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV1117LV12DCYR?qs=tEz3BkPb1rwxzqN6qfNd0Q%3D%3D"
-			(at 102.87 -555.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 102.87 -655.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TLV1117LV12DCYR"
-			(at 102.87 -755.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b536ec77-755a-474b-b19c-ae325e553e94")
-		)
-		(pin "2"
-			(uuid "cf2287e5-c92b-4336-91f8-18090697a8be")
-		)
-		(pin "1"
-			(uuid "8fd1ef5b-6f75-485c-9100-cee588a0fc5e")
-		)
-		(pin "4"
-			(uuid "5c03179e-c430-45ea-92f6-5605747d45c7")
-		)
-		(instances
-			(project "xbox2sata"
-				(path "/29cbf96f-e8a1-446a-9b4f-b577bf6e6f05"
-					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -15625,78 +15062,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 144.78 50.8 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cea7b7b0-a752-4f0b-8cb4-cf0935ebf837")
-		(property "Reference" "R5"
-			(at 146.05 49.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.5"
-			(at 146.05 52.578 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.002 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 144.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2d32462d-603c-4c35-93a5-f668ceaf2b1d")
-		)
-		(pin "1"
-			(uuid "8f04fb15-454e-4d58-9517-8787b5d7105c")
-		)
-		(instances
-			(project ""
-				(path "/29cbf96f-e8a1-446a-9b4f-b577bf6e6f05"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 139.7 29.21 0)
+		(at 101.6 26.67 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15705,7 +15072,7 @@
 		(dnp no)
 		(uuid "e7d0ef72-a7ba-4448-a36b-748ff2d9edaa")
 		(property "Reference" "C17"
-			(at 135.382 27.178 0)
+			(at 97.282 24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15714,7 +15081,7 @@
 			)
 		)
 		(property "Value" "10uf"
-			(at 139.954 31.242 0)
+			(at 101.854 28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15723,7 +15090,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 140.6652 25.4 0)
+			(at 102.5652 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15732,7 +15099,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
-			(at 139.7 29.21 0)
+			(at 101.6 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15741,7 +15108,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 139.7 29.21 0)
+			(at 101.6 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15750,7 +15117,7 @@
 			)
 		)
 		(property "Mfr. No:" "C1608X7R1A105K080AC"
-			(at 139.7 29.21 0)
+			(at 101.6 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
