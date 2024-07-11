@@ -1,0 +1,389 @@
+(footprint "SATAAPLSMTK"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SATA-A-PL-SMT-K-3")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at -8 -8 0)
+		(layer "F.SilkS")
+		(uuid "fef16873-7960-461a-9302-ea31401a8627")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SATAAPLSMTK"
+		(at 0 -8.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e6c20bb7-f6c1-490e-a306-9cea84b93712")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3794c41f-db45-4c3e-8817-f8e14948c7f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/4/sata_a_pl_smt_k_data_sheet-3396922.pdf"
+		(at -1.5 9 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f96aa5f-9fef-4e47-afce-bb47fceb43bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be8dbb3a-4b92-45d8-90bd-9227f63a52af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -8.735 -5.75)
+		(end -8.735 5.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42f64553-2185-409d-b9e8-ebfb5fd0c49c")
+	)
+	(fp_line
+		(start -8.735 5.75)
+		(end -5 5.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ca89fee-0c59-48cd-8d5c-b449883cccd0")
+	)
+	(fp_line
+		(start -5 5.75)
+		(end -5 4.505)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d94c7681-0a0a-4834-bd47-7b581ad9cd94")
+	)
+	(fp_line
+		(start -4.8 3.25)
+		(end 4.8 3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "add08f87-c977-4ec9-8651-8baf37480e2c")
+	)
+	(fp_line
+		(start -3.81 6.4)
+		(end -3.81 6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb7f3b83-9c90-49c4-ba9e-19202adffaf5")
+	)
+	(fp_line
+		(start -3.81 6.5)
+		(end -3.81 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09276dfd-f1ea-4147-b5b7-3d13b483340f")
+	)
+	(fp_line
+		(start 5 4.505)
+		(end 5 5.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71895024-d0f8-47ef-9afc-814c0d07532b")
+	)
+	(fp_line
+		(start 5 5.75)
+		(end 8.735 5.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80ba0900-fc4a-4a4e-aa7f-8b71914dd663")
+	)
+	(fp_line
+		(start 8.735 -5.75)
+		(end -8.735 -5.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f6a406f7-ccfc-47e0-97bf-08a2dce9643a")
+	)
+	(fp_line
+		(start 8.735 5.75)
+		(end 8.735 -5.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31e5239a-db71-48a5-bdbc-2730d618042b")
+	)
+	(fp_arc
+		(start -3.81 6.4)
+		(mid -3.76 6.45)
+		(end -3.81 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8615fda-6482-4e4c-8668-c5012477e87c")
+	)
+	(fp_arc
+		(start -3.81 6.5)
+		(mid -3.86 6.45)
+		(end -3.81 6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb4ba8af-574b-43ad-8af3-7838d955366f")
+	)
+	(fp_line
+		(start -9.735 -6.75)
+		(end 9.735 -6.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a569c9d8-8bc8-404b-8157-e5623a93055b")
+	)
+	(fp_line
+		(start -9.735 6.96)
+		(end -9.735 -6.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cef227e2-d4e1-4f98-b7a2-dda8eca84209")
+	)
+	(fp_line
+		(start 9.735 -6.75)
+		(end 9.735 6.96)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bdb9803e-b1d7-4332-8cfe-15f2f1233128")
+	)
+	(fp_line
+		(start 9.735 6.96)
+		(end -9.735 6.96)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "548f4a6f-82f4-475c-ab4c-a06142e60afc")
+	)
+	(fp_line
+		(start -8.735 -5.75)
+		(end 0 -5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7a5308c-047b-489d-bccc-670e19db5f64")
+	)
+	(fp_line
+		(start -8.735 5.75)
+		(end -8.735 -5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9eaf646d-4e0e-411f-8591-166cc6224f97")
+	)
+	(fp_line
+		(start -5 3.25)
+		(end -5 5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d5c8669-c1df-4ff6-addf-e408aa53e5b5")
+	)
+	(fp_line
+		(start -5 5.75)
+		(end -8.735 5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8195d8f2-8809-4385-bb16-d579125278b8")
+	)
+	(fp_line
+		(start 0 -5.75)
+		(end 8.735 -5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab902155-fa51-4418-942e-b9df1653e338")
+	)
+	(fp_line
+		(start 5 3.25)
+		(end -5 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b341954c-1102-40a9-89d5-57c0576b8925")
+	)
+	(fp_line
+		(start 5 5.75)
+		(end 5 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6895bb63-d07e-4aac-9457-d5d1fbc9af2b")
+	)
+	(fp_line
+		(start 8.735 -5.75)
+		(end 8.735 5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0dc8604e-3fb3-48b5-babc-5f030ff1b55b")
+	)
+	(fp_line
+		(start 8.735 5.75)
+		(end 5 5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "174ee7cf-14b5-481d-8408-fed1a4051719")
+	)
+	(pad "1" thru_hole rect
+		(at -6.37 2.6)
+		(size 2.2 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "404b8671-29cb-4d70-9278-af6078509c49")
+	)
+	(pad "2" thru_hole rect
+		(at 6.37 2.6)
+		(size 2.2 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e02800d6-0ec3-46d2-8e07-6dc5731d737a")
+	)
+	(pad "S1" smd rect
+		(at -3.81 4.96)
+		(size 0.9 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cacbdfcc-8e44-47a4-99be-c97d03ec7d66")
+	)
+	(pad "S2" smd rect
+		(at -2.54 4.96)
+		(size 0.9 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "972e7a30-e438-46f1-9f90-64f6ae773b11")
+	)
+	(pad "S3" smd rect
+		(at -1.27 4.96)
+		(size 0.9 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "16e264eb-f92b-41c4-b96e-ed131739c826")
+	)
+	(pad "S4" smd rect
+		(at 0 4.96)
+		(size 0.9 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fe6eac01-a9aa-4239-b4d7-e6a701358762")
+	)
+	(pad "S5" smd rect
+		(at 1.27 4.96)
+		(size 0.9 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c5731e05-4b9b-4017-9df5-d02d96eae47e")
+	)
+	(pad "S6" smd rect
+		(at 2.54 4.96)
+		(size 0.9 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6b3da94a-df0f-4a1c-a050-1ab578bcaca1")
+	)
+	(pad "S7" smd rect
+		(at 3.81 4.96)
+		(size 0.9 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "38f5f5a0-3c8f-4250-88b1-4c8d5959de4e")
+	)
+	(model "D:/Gaming hardware/Microsoft XBox/Modifications/HDD/xbox2sata/PCB/KiCad/Imports/SATA socket/SATA-A-PL-SMT-K.stp"
+		(offset
+			(xyz 0.55 5.7 2.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

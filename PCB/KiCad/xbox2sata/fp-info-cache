@@ -1,4 +1,4 @@
-23595577881655397
+23602470289919908
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96369,6 +96369,13 @@ xbox2sata
 0
 0
 xbox2sata
+67800-8025
+
+
+0
+0
+0
+xbox2sata
 CONN_67800-8025_MOL
 SATA data socket
 67800-8025 SATA data socket
@@ -96390,12 +96397,33 @@ Connector
 40
 40
 xbox2sata
+RHDR40W76P254_2X20_5080X508X826P
+29975-01-20-RK
+Connector
+0
+40
+40
+xbox2sata
+SATAAPLSMTK
+SATA-A-PL-SMT-K-3
+Connector
+0
+9
+9
+xbox2sata
 SOT230P700X180-4N
 TLV1117LV12DCYR
 Integrated Circuit
 0
 4
 4
+xbox2sata
+Voltage regulator
+Voltage regulator
+Voltage regulator
+0
+3
+3
 xbox2sata
 WURTH-ELEKTRONIK_61203921621
 IDE socket

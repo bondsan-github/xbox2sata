@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SATA-A-PL-SMT-K
+D Conn SATA PL 7 POS 1.27mm Solder RA SMD 7 Terminal 1 Port Tray/Tube
+K
+F https://app.adam-tech.com/products/download/data_sheet/203109/sata-a-pl-smt-k-data-sheet.pdf
+$ENDCMP
+#
+#End Doc Library
