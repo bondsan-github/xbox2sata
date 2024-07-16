@@ -1,5 +1,32 @@
 88SA8040
 
+10K resistor (R14) pull-up to 3V3 added to CSEL IDE pin 28
+4.7K resistor (R19) pull-down to ground on T0 U5 pin 33 to device as IDE master 
+positive power supply icons changed from Global labels to power symbols
+
+http://www.dc-swat.ru/forum/printthread.php?tid=2482
+Code:
+pin 33 - T0          vendor ID (need PD 10 kOm)
+pin 34 - T1          vendor ID/SATA LED# (need PU 10 kOm to VDD2 (3V3))
+pin 35 - T2          PD: disable SSC     PU: enable SSC (int PD)
+pin 36 - T3          clock speed     PD: 20MHz     PU: 25MHz    
+pin 37 - T4          clock speed (need PD 10 kOm)
+pin 38 - T5          fix UDMA mode     PD: monitor set feature     PU: fixes its UDMA mode
+pin 39 - T6          power mode     PD: disable     PU: enable
+pin 40 - T7          SATA mode     PD: 1.5 Gbps     PU: 3.0 Gbps
+pin 52 - T8          SIGNATURE FIS     PD: transformer from registers     PU: force bit4 to 1
+
+pin 18          pin 19          pin 20
+CNFG0           CNFG1           CNFG2
+
+  PD              PD               PD          Device mode 100 MB/s
+  PU              PD               PD          Device mode 133 MB/s
+  PD              PU               PD          Device mode 150 MB/s
+  PD              PU               PU          Host mode 150 MB/s
+
+*PD - pool down (connect to GND over resistor 10 kOm)
+*PU - pool up (connect to VCC2(3.3 V) over resistor 10 kOm)
+
 FB1 psdevwiki BLM11P600S; no longer manufactured, replaced with BLM18PG600SN1D
 
 https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM18PG600SN1D?qs=LbqjZSvnDsxC2SXhhViR%252BA%3D%3D
