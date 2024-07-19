@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.3*%
+%TF.CreationDate,2024-07-19T14:19:01+01:00*%
+%TF.ProjectId,xbox2sata,78626f78-3273-4617-9461-2e6b69636164,0.1*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.3) date 2024-07-19 14:19:01*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X104085000Y-56840000D02*
+X137130000Y-56840000D01*
+X137130000Y-115740000D01*
+X104085000Y-115740000D01*
+X104085000Y-56840000D01*
+M02*

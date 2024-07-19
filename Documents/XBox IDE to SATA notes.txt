@@ -1,9 +1,5 @@
 88SA8040
 
-10K resistor (R14) pull-up to 3V3 added to CSEL IDE pin 28
-4.7K resistor (R19) pull-down to ground on T0 U5 pin 33 to device as IDE master 
-positive power supply icons changed from Global labels to power symbols
-
 http://www.dc-swat.ru/forum/printthread.php?tid=2482
 Code:
 pin 33 - T0          vendor ID (need PD 10 kOm)
@@ -105,7 +101,8 @@ t8, U5 52 -> r26 -> GND
 
 U1
 ==
-613233GP PM67B
+613233GP PM67B, Package SOT-89-3  = FP6132
+https://www.ebastlirna.cz/modules.php?name=Forums&file=viewtopic&p=1299356&highlight=#1299356
 
 Voltages from version 1.4 motherboard
 =====================================
