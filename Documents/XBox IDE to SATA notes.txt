@@ -1,3 +1,4 @@
+JM20330
 88SA8040
 
 http://www.dc-swat.ru/forum/printthread.php?tid=2482
@@ -133,7 +134,7 @@ Unverified schematic of Startech IDE2SATA pcb
 
 To do
 =====
-Marvell 88SA8052 requires;
+Marvell 88SA8052 requires; -NNC2
 1V2 for Vdd
 3V3 for Vddio and pull-ups
 

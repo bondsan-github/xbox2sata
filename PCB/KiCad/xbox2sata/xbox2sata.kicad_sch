@@ -11655,7 +11655,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 200.66 135.89 0)
+		(at 213.36 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11663,7 +11663,7 @@
 		(dnp no)
 		(uuid "013b4b48-cd4b-4818-9e37-b77a2e4d4664")
 		(property "Reference" "R14"
-			(at 198.628 138.684 90)
+			(at 211.328 128.524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11672,7 +11672,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 200.66 137.922 90)
+			(at 213.36 127.762 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11681,7 +11681,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 198.882 135.89 90)
+			(at 211.582 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11690,7 +11690,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 135.89 0)
+			(at 213.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11699,7 +11699,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 200.66 135.89 0)
+			(at 213.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
