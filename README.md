@@ -1,6 +1,7 @@
 Aim
 ===
 - Create a IDE to SATA bridge PCB with pass-through socket for XBox DVD cable.
+- !3d render[3d render](/images/3d_render.png)
 
 Motivation
 ==========
